@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Deutsche Digitale Bibliothek visualized</title>
+<link rel="icon" type="image/png" href="favicon.png" />
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<script src="js/jquery-2.1.1.min.js"></script>
+<meta charset="utf-8">
+<script type="text/javascript">
+var $buoop = {};
+$buoop.ol = window.onload;
+window.onload=function(){
+ try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+ var e = document.createElement("script");
+ e.setAttribute("type", "text/javascript");
+ e.setAttribute("src", "//browser-update.org/update.js");
+ document.body.appendChild(e);
+}
+</script>
+
+
+<style>
+@font-face {
+  font-family: KarbidWeb;
+  src: url("css/KarbidWeb.eot");
+}
+
+@font-face {
+  font-family: KarbidWeb;
+  src: url("css/KarbidWeb.woff") format("woff");
+}
+
+@font-face {
+  font-family: KarbidWeb;
+  src: url("css/KarbidWebBold.woff") format("woff");
+  font-weight: bold;
+}
+
+body {
+	background: #0A0A0A;
+	color: #FFF;
+  	margin: 0;
+	padding: 0;
+  	min-height: 700px;
+  	font-family: KarbidWeb, sans-serif;
+	min-width: 1240px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+  background: #363636;
+  z-index:10;
+ 	padding-bottom: 10px;
+  position: relative;
+  height: 60px;
+}
+
+.header h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #A8A8A8;
+  width:480px;
+  float:left;
+  padding-top: 12px;
+}
+
+.header h1 span { display: inline;}
+
+.header span, .header a {
+  font-weight: normal;
+  font-size: 17px;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.header .menu a , .header h1 { line-height: 27px; }
+
+.header .menu { float:right; }
+.header .menu a { float:left; display:block; padding:22px 20px; color:#cecece; text-decoration: none;}
+.menu a.active, .menu a:hover  { background-color: #292929; color: #fff;}
+
+.menu .social {	float: right; padding: 22px 16px;}
+.menu .social a { padding:0px 8px; color:#cecece; text-decoration: none; vertical-align: middle}
+.menu .social a:hover  { color: #fff; background-color:#363636; }
+
+.menu .lang {	float: right; padding: 22px 0px; }
+.menu .lang a { padding:0px 8px; color:#777; text-decoration: none; vertical-align: middle}
+.menu .lang a:hover  { color: #fff; background-color:#363636; }
+
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.subheader {
+  padding-top: 10px;
+  background: #292929;
+  padding-bottom: 10px;
+}
+
+.subheader h1 {
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.background {
+	background: #171717;
+	margin: 0;
+	padding: 30px 0;
+	width: 100%;
+	clear: both;
+	height: 450px;
+}
+
+.background h2 {
+	width: 590px;
+ 	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.background h2.faq {
+	float: right;
+	margin-top: -27px;
+}
+
+.background p {
+	width: 550px;
+	padding-top: 5px;
+	padding-right: 60px;
+	float: left;
+	color: #aaa;
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+.background p a {
+	color: #fff !important;
+}
+
+.background p a:hover {
+	text-decoration: underline;
+}
+
+.background p.faq {
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 14px;
+}
+
+.background p.faq strong {
+}
+
+.footer {
+	color: #777;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 1.3em;
+}
+
+.footer .container {
+	padding: 20px 0 40px;
+}
+
+.footer a { 	color: #ccc; }
+.footer a:hover { 	color: #fff; text-decoration: underline;}
+
+.footer a:first-child img {	opacity: 0.7;}
+.footer a:first-child:hover img {	opacity: 1;}
+
+.footer img {
+	margin: 25px;
+	margin-left: 0px;
+	border: 0;
+	opacity: 0.85;
+}
+.footer img:hover {
+	opacity: 1;
+}
+
+.subheader h1 {
+	font-size: 27px;
+	line-height: 1.5em;
+	margin-bottom: 40px;
+	font-weight: normal;
+}
+
+.subheader p {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #ccc;
+}
+
+.subheader a { 	color: #CD1245; }
+.subheader a:hover { 	text-decoration: underline; }
+
+.main {
+  background: #222222;
+	padding: 50px 0 25px;
+	margin: 0;
+	margin-left: -20px;
+}
+
+.project {
+	float: left;
+	padding: 10px;
+	width: 265px;
+	margin-right: 20px;
+	line-height: 1.35em;
+}
+
+.main .container div:nth-child(4) {
+	margin-right: 0px;
+}
+
+.project:hover {
+	background: #292929;
+}
+
+.project img {
+
+}
+
+h2, a h2 {
+	font-size: 18px;
+	color: #fff;
+}
+
+.subheader {
+	padding: 50px 0;
+	height: 350px;
+	min-width: 1240px;
+	background: #292929 url('index/icons.png') center no-repeat;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .subheader {
+		background-image: url('index/icons@2x.png');		
+    background-size: 1200px 400px;
+  }
+}
+
+.subheader .container {
+	width: 520px;
+	padding-left: 560px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <h1>Deutsche Digitale Bibliothek <span>visualized</span></h1>
+    <div class="menu">
+      <span><a href="./" class="active">Start</a></span>
+      <span><a href="timeline/">Timeline</a></span>
+      <span><a href="keywords/">Keywords</a></span>
+      <span><a href="places/">Places</a></span>
+      <span><a href="networks/">Networks</a></span>
+      <span class="lang"><a href="index_de.html">Deutsch</a></span>
+      <div class="social">
+            <a target="_blank" href="http://twitter.com/home?status=Die%20Deutsche%20Digitale%20Bibliothek%20visualized%20–%20Timeline,%20keywords,%20places%20and%20networks%20of%20%20@ddbkultur%20http://infovis.fh-potsdam.de/ddb/"><i class="fa fa-twitter"></i></a>
+				<a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://infovis.fh-potsdam.de/ddb/"><i class="fa fa-facebook"></i></a>
+			</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="subheader">
+  <div class="container">
+    <h1>How does a collection of over 7&nbsp;million cultural heritage objects look like?</h1>
+    <p>
+			The <a href="https://www.deutsche-digitale-bibliothek.de/">German Digital Library</a> provides access
+			to a continuously growing collection that is part of the digital cultural heritage of German cultural and academic institutions. This project attempts to make the dimensions of this stock of artefacts, documents and resources visible and tangible with the help of interactive visualizations.
+			The resulting representations are experimental overviews of the temporal and spatial distribution of objects and the associated topics, people, and organizations.
+		</p>
+  </div>
+</div>
+
+<div class="main">
+<div class="container">
+
+<div class="project">
+<a href="timeline/">
+<img src="index/time.png" width=265 height=265>
+<h2>Periods &amp; Sectors</h2>
+<p>This overview visualizes the most common keywords, places, persons, and organizations
+	over time.</p></a>
+</div>
+
+<div class="project">
+<a href="keywords/"><img src="index/tags.png" width=265 height=265>
+<h2>Keywords</h2>
+<p>The most frequent keywords are shown using varying font sizes. Common occurrences can be revealed per click.</p></a>
+</div>
+
+<div class="project">
+<a href="places/"><img src="index/cities.png" width=265 height=265>
+<h2>Places &amp; Sectors</h2>
+<p>An overview of cities with the most entries. The rings are subdivided by the different institution types.</p></a>
+</div>
+
+<div class="project">
+<a href="networks/">
+<img src="index/network.png" width=265 height=265>
+<h2>Persons &amp; Organizations</h2>
+<p>Networks among the most prolific people and organizations in the collection across selectable periods.</p></a>
+</div>
+
+<div style="clear: both;">&nbsp;</div>
+
+</div></div>
+
+<div class="background">
+
+<div class="container">
+
+	<h2>Background</h2>
+	<p>
+		The visualizations are the result of an exploratory study aimed at generating innovative perspectives on the collection of the <a href="https://www.deutsche-digitale-bibliothek.de/">German Digital Library</a> (Deutsche Digitale Bibliothek, DDB) and make them available as visual and interactive representations.
+		In contrast to existing search interfaces, which show only a few objects as part of result lists, the presented views should show the distribution of objects along time, place, topic, people, and other dimensions.
+	</p>
+
+	<h2 class="faq">FAQ</h2>
+
+	<p class="faq">
+<strong>How are the visualizations related with the metadata fiels of the DDB?</strong><br>
+The visualizations are solely based on the facets (e.g., persons &amp; organizations),
+which the DDB exposes via the search interface or the API method <a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/indexing-profile">indexing-profile</a>.
+<br><br>
+<strong>Are the visualizations optimized for accessibility?</strong><br>
+No, at the moment the pages and visualizations are unfortunately not yet optimized towards accessibility.
+<br><br>
+<strong>Why do the numbers of the objects sometimes do not match the numbers displayed on the DDB website?</strong>
+<br>
+The visualizations are based on a data snapshot from June 2014 and do not represent the current state of the DDB collection.
+<br><br>
+<strong>Which browser versions are supported?</strong>
+<br>
+The visualizations were developed towards the current versions of the four most used browsers (June 2014): Chrome 35, Safari 7, Firefox 30, Internet Explorer 11. The visualizations have not yet been optimized for mobile devices.
+</p>
+
+	</div>
+</div>
+
+<div class="footer">
+<div class="container">
+
+<a href="http://www.informationisbeautifulawards.com/showcase/897-how-does-a-collection-of-over-7-million-cultural-heritage-objects-look-like"><img height="150" width="150" src="index/shortlist.png" alt="informationisbeautifulawards"></a>
+<a href="http://uclab.fh-potsdam.de/"><img width="300" src="index/uclab.png" alt="Logo Urban Complexity Lab FH Potsdam"></a>
+<a href="https://www.deutsche-digitale-bibliothek.de/"><img height=150 width=300 src="index/ddb.png" alt="Logo Deutsche Digitale Bibliothek"></a>
+
+<p>A collaboration between <a href="http://fh-potsdam.de/">Potsdam University of Applied Sciences</a> and <a href="http://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a><br>
+
+	Design and implementation: <a href="http://www.cbernhardt.net/" target="_blank">Christian Bernhardt</a>, <a href="http://www.gabrielcredico.de/" target="_blank">Gabriel Credico</a> und <a href="http://www.chrispie.com/" target="_blank">Christopher Pietsch</a><br>
+	Scientific supervision: <a href="http://mariandoerk.de/" target="_blank">Prof. Dr. Marian Dörk</a> &nbsp;
+	Consulting: Stephan Bartholmei
+
+
+</p>
+
+</div>
+</div>
+
+</body>
+</html>

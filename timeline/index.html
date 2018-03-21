@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Timeline - Deutsche Digitale Bibliothek visualized</title>
+<meta charset="utf-8">
+<meta name="author" content="Christopher Pietsch">
+<link rel="icon" type="image/png" href="../favicon.png" />
+<link href="../css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/viz.css"></link>
+		<style type="text/css" media="screen">
+		.menu .lang {	float: right; padding: 22px 0px; }
+		.menu .lang a { padding:0px 8px; color:#777; text-decoration: none; vertical-align: middle}
+		.menu .lang a:hover  { color: #fff; background-color:#363636; }			
+		</style>
+
+</head>
+
+<body>
+
+<div class="header">
+  <div class="container">
+    <h1>Deutsche Digitale Bibliothek <span>visualized</span></h1>
+    <div class="menu">
+      <span><a href="../index_en.html">Start</a></span>
+      <span><a href="../timeline/" class="active">Timeline</a></span>
+      <span><a href="../keywords/">Keywords</a></span>
+      <span><a href="../places/">Places</a></span>
+      <span><a href="../networks/">Networks</a></span>
+      <span class="lang"><a href="../epochen/">Deutsch</a></span>
+      <div class="social">
+            <a target="_blank" href="http://twitter.com/home?status=Die%20Deutsche%20Digitale%20Bibliothek%20visualized%20–%20Timeline,%20keywords,%20places%20and%20networks%20of%20%20@ddbkultur%20http://infovis.fh-potsdam.de/ddb/"><i class="fa fa-twitter"></i></a>
+				<a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://infovis.fh-potsdam.de/ddb/"><i class="fa fa-facebook"></i></a>
+			</div>			
+
+    </div>
+  </div>
+</div>
+
+<div class="subheader">
+  <div class="container">
+
+    <h1>Periods &amp; Sectors<span class="timerange intro"></span></h1>
+    <a class="skip" href="#skip">Skip Intro</a>
+    <p>
+    Overview visualization along the time periods and cultural heritage sectors. Selecting a time span shows the most common keywords, places, persons and organizations for these periods.
+    </p>
+  </div>
+</div>
+
+<div class="main container">
+  <div id="overlay">
+    <svg></svg>
+  </div>
+  <div class="menu"></div>
+  <div class="help"></div>
+
+  <svg id="chart">
+  <defs>
+      <pattern id="hatch00" patternUnits="userSpaceOnUse" x="0" y="0" width="5" height="5">
+        <g style="fill:none; stroke:white; stroke-width:1">
+          <path d="M0,0 l5,5"/>
+          <path d="M5,0 l-5,5"/>
+        </g>
+      </pattern>
+    </defs>
+  </svg>
+
+</div>
+
+<script src="../js/d3.v3.min.js"></script>
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/queue.v1.min.js"></script>
+<script src="js/d3tip.js"></script>
+
+<link rel="stylesheet" href="js/d3tip.css"></link>
+
+<script src="js/viz.js"></script>
+
+</body>
+</html>
