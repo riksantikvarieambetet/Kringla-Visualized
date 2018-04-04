@@ -147,10 +147,10 @@ var svg = d3.select("#chart")
 //     .attr("type", "identity")
 
 queue()
-  .defer(d3.csv, 'data/time_sector.csv')
+  .defer(d3.csv, 'data/time_itemtype.csv')
   .defer(d3.csv, 'data/time_fct.csv')
-  .defer(d3.csv, 'data/sector_fct.csv')
-  .defer(d3.csv, 'data/time_sector_type.csv')
+  .defer(d3.csv, 'data/itemtype_fct.csv')
+  .defer(d3.csv, 'data/time_itemtype_type.csv')
   .defer(d3.csv, 'data/type_fct.csv')
   .defer(d3.csv, 'data/time_keywordsNames.csv')
   .defer(d3.csv, 'data/time_place.csv')
@@ -178,7 +178,6 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
     d.id = +d.id;
   });
 
-  //console.log(dataSector)
 
   dataKeywords.forEach(function(d) {
     d.timeId = +d.timeId;
@@ -207,7 +206,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
   }
 
   data.forEach(function(d) {
-    d.sectorId = +d.sectorId;
+    d.itemtypeId = +d.itemtypeId;
     d.timeId = +d.timeId;
     //d.timeId = dataTime.getVal(+d.timeId);
     d.count = +d.count;
@@ -215,7 +214,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
   });
 
   dataSectorType.forEach(function(d) {
-    d.sectorId = +d.sectorId;
+    d.itemtypeId = +d.itemtypeId;
     d.typeId = +d.typeId;
     d.timeId = +d.timeId;
     d.count = +d.count;
@@ -263,7 +262,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
     return dataTimeValues.indexOf(d.timeId) > -1;
   })
 
-  // console.log("data", data, data[0]);
+   // console.log("data", data, data[0]);
   // console.log("dataTime", dataTime, dataTime[0]);
   // console.log("dataSector", dataSector, dataSector[0]);
 
@@ -271,19 +270,19 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
   var nested = dataSector.map(function(d){
     var values = dataTime.map(function(e){
       var item = data.filter(function(i){ 
-        return i.sectorId == d.id && i.timeId == e.id;
+        return i.itemtypeId == d.id && i.timeId == e.id;
       })[0];
 
       var types = dataType.map(function(t){
         var item = dataSectorType.filter(function(i){ 
-          return i.sectorId == d.id && i.timeId == e.id && t.id == i.typeId;
+          return i.itemtypeId == d.id && i.timeId == e.id && t.id == i.typeId;
         })[0];
         //console.log(item)
         return { key: t.id, count: item ? item.count : 0}
       });
 
       if(item) item.types = types;
-      else item = { count: 0, sectorId: d.id, timeId: e.id, types:types};
+      else item = { count: 0, itemtypeId: d.id, timeId: e.id, types:types};
       //console.log(types)
 
       return item;
