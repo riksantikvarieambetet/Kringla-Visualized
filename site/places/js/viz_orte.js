@@ -15,7 +15,7 @@ function generateOverlay () {
     //mouseover bei stuttgart
     var e = document.createEvent('UIEvents');
     e.initUIEvent('mouseover', true, true, window, 1);
-    d3.select(".Stuttgart_max .pie-chart .Archives").node().dispatchEvent(e);
+    d3.select(".Småland_max .pie-chart .Kulturlämning").node().dispatchEvent(e);
 
     var infos = 
         [
@@ -26,6 +26,7 @@ function generateOverlay () {
         ];
 
     //magie mit mathe
+    // I Sverige kallar vi det högstadiematte
     overlay
     .selectAll("g")
     .data(infos)
@@ -60,9 +61,9 @@ function generateOverlay () {
     fm_options = {
         jQueryUI : false,
         position : "right-bottom",
-        // name_placeholder:"Name please",                     
+        // name_placeholder:"Name please",
         trigger_label : "Feedback",
-          title_label: "Your observations, ideas and suggestions",             
+          title_label: "Your observations, ideas and suggestions",
         message_required : true,
         show_asterisk_for_required : false,
         feedback_url : "send_feedback",
@@ -80,7 +81,7 @@ function generateOverlay () {
         .duration(1500)
         .style("opacity", 1);
     //help button overlay zuweisen
-    overlay = d3.select("#overlay svg");     
+    overlay = d3.select("#overlay svg");
         
     d3.select('.help')
         .selectAll("img")
@@ -97,7 +98,7 @@ function generateOverlay () {
         $("#overlay svg").click(function(){
             var e = document.createEvent('UIEvents');
             e.initUIEvent('mouseout', true, true, window, 1);
-            d3.select(".Stuttgart_max .pie-chart .Archives").node().dispatchEvent(e);
+            d3.select(".Småland_max .pie-chart .Kulturlämning").node().dispatchEvent(e);
             d3.select(".help img")
                 .classed("active", false);
             overlay.style("display", "none")
