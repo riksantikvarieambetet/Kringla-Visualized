@@ -84,8 +84,10 @@ r = requests.get(province_url, headers=headers)
 raw = r.json()
 
 region_list = []
+count_list = []
 for i, index in enumerate(raw['result']['term']):
     region_list.append(index['indexFields']['value'].title())
+    count_list.append(index['records'])
     # data-sets.js
     #print('{"name": "' + index['indexFields']['value'].title() + '", "value": ' + str(index['records']) + '},')
     # index.html
@@ -102,9 +104,12 @@ for i, index in enumerate(raw['result']['term']):
     #print(string)
 
     # data-sets.js
-    print('''    {0}: [\n{1}    ],'''.format(index['indexFields']['value'].title(), get_province_itemtypes(index['indexFields']['value'], index['records'])))
+    #print('''    {0}: [\n{1}    ],'''.format(index['indexFields']['value'].title(), get_province_itemtypes(index['indexFields']['value'], index['records'])))
 
 for i, region in enumerate(sorted(region_list)):
     # places.css
     #print('.' + region + ' { order: ' + str(i) + ' }')
     pass
+
+# min/max value for index.html
+print('max: ' + str(max(count_list)) + ' min: ' + str(min(count_list)))
