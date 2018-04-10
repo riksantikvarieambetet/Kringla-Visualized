@@ -44,39 +44,39 @@ def get_province_itemtypes(province, total):
     result = ''
 
     if kulturl:
-        result += '{"legendLabel": "Kulturlämning", "magnitude": ' + str(kulturl) + ', "link": "' + base_url + 'kulturlämning"},\n'
+        result += '        {"legendLabel": "Kulturlämning", "magnitude": ' + str(kulturl) + ', "link": "' + base_url + 'kulturlämning"},\n'
     else:
-        result += '{"legendLabel": "Kulturlämning", "magnitude": 0, "link": "#"},\n'
+        result += '        {"legendLabel": "Kulturlämning", "magnitude": 0, "link": "#"},\n'
 
     if item:
-        result += '{"legendLabel": "Föremål", "magnitude": ' + str(item) + ', "link": "' + base_url + 'objekt/föremål"},\n'
+        result += '        {"legendLabel": "Föremål", "magnitude": ' + str(item) + ', "link": "' + base_url + 'objekt/föremål"},\n'
     else:
-        result += '{"legendLabel": "Föremål", "magnitude": 0, "link": "#"},\n'
+        result += '        {"legendLabel": "Föremål", "magnitude": 0, "link": "#"},\n'
 
     if foto:
-        result += '{"legendLabel": "Fotografi", "magnitude": ' + str(foto) + ', "link": "' + base_url + 'foto"},\n'
+        result += '        {"legendLabel": "Fotografi", "magnitude": ' + str(foto) + ', "link": "' + base_url + 'foto"},\n'
     else:
-        result += '{"legendLabel": "Fotografi", "magnitude": 0, "link": "#"},\n'
+        result += '        {"legendLabel": "Fotografi", "magnitude": 0, "link": "#"},\n'
 
     if bygg:
-        result += '{"legendLabel": "Byggnad", "magnitude": ' + str(bygg) + ', "link": "' + base_url + 'byggnad"},\n'
+        result += '        {"legendLabel": "Byggnad", "magnitude": ' + str(bygg) + ', "link": "' + base_url + 'byggnad"},\n'
     else:
-        result += '{"legendLabel": "Byggnad", "magnitude": 0, "link": "#"},\n'
+        result += '        {"legendLabel": "Byggnad", "magnitude": 0, "link": "#"},\n'
 
     if konst:
-        result += '{"legendLabel": "Konstverk", "magnitude": ' + str(konst) + ', "link": "' + base_url + 'konstverk"},\n'
+        result += '        {"legendLabel": "Konstverk", "magnitude": ' + str(konst) + ', "link": "' + base_url + 'konstverk"},\n'
     else:
-        result += '{"legendLabel": "Konstverk", "magnitude": 0, "link": "#"},\n'
+        result += '        {"legendLabel": "Konstverk", "magnitude": 0, "link": "#"},\n'
 
     if dok:
-        result += '{"legendLabel": "Dokument", "magnitude": ' + str(dok) + ', "link": "' + base_url + 'dokument"},\n'
+        result += '        {"legendLabel": "Dokument", "magnitude": ' + str(dok) + ', "link": "' + base_url + 'dokument"},\n'
     else:
-        result += '{"legendLabel": "Dokument", "magnitude": 0, "link": "#"},\n'
+        result += '        {"legendLabel": "Dokument", "magnitude": 0, "link": "#"},\n'
 
     if other:
-        result += '{"legendLabel": "Other", "magnitude": ' + str(other) + ', "link": "' + base_url + '"}\n'
+        result += '        {"legendLabel": "Other", "magnitude": ' + str(other) + ', "link": "' + base_url + '"}\n'
     else:
-        result += '{"legendLabel": "Other", "magnitude": 0, "link": "#"}\n'
+        result += '        {"legendLabel": "Other", "magnitude": 0, "link": "#"}\n'
 
     return result
 
@@ -93,7 +93,7 @@ for i, index in enumerate(raw['result']['term']):
     # index.html
     #print('$(".' + index['indexFields']['value'].title() + '_max").toggleClass("' + index['indexFields']['value'].title() + '");')
 
-    string = '''<div class="{0}_max">
+    string = '''        <div class="{0}_max">
             <div class="pie-chart" id="pie_chart_{2}"></div>
             <div class="townName"><p class="name">{0}</p><p class="value">{1} entries</p></div>
         </div>'''.format(index['indexFields']['value'].title(), str(index['records']), str(i+1))
@@ -102,8 +102,9 @@ for i, index in enumerate(raw['result']['term']):
     #print(string)
 
     # data-sets.js
-    #print('''{0}: [\n{1}],'''.format(index['indexFields']['value'].title(), get_province_itemtypes(index['indexFields']['value'], index['records'])))
+    print('''    {0}: [\n{1}    ],'''.format(index['indexFields']['value'].title(), get_province_itemtypes(index['indexFields']['value'], index['records'])))
 
 for i, region in enumerate(sorted(region_list)):
     # places.css
-    #print('.' + region + '{ order: ' + str(i) + ' }')
+    #print('.' + region + ' { order: ' + str(i) + ' }')
+    pass
