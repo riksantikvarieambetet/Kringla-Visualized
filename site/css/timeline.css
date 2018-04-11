@@ -1,12 +1,12 @@
 .axis line {
     fill: none;
-    stroke: #FFF;
+    stroke: #3A3A3A;
     shape-rendering: crispEdges;
     opacity: 0.1;
 }
 
 .x .tick text {
-    fill: #FFF;
+    fill: #3A3A3A;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -30,7 +30,7 @@
 
 .x.axis path {
     fill: none;
-    stroke: rgba(255, 255, 255, 0.72);
+    stroke: rgba(58, 58, 58, 0.72);
     shape-rendering: crispEdges;
 }
 
@@ -41,16 +41,16 @@
 }
 
 .group .group-label {
-    fill: rgba(255, 255, 255, 0.82);
+    fill: rgba(58, 58, 58, 1);
 }
 
 .group a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.82);
+    color: rgba(58, 58, 58, 1);
 }
 
 .arc text {
-    fill: rgba(255, 255, 255, 0.82);
+    fill: rgba(58, 58, 58, 1);
 }
 
 .bars {
@@ -77,18 +77,18 @@ p {
 .brush .extent {
     /*  stroke: rgba(255, 255, 255, 0.45); */
     fill-opacity: 0.3;
-    fill: #FFF;
+    fill: #3A3A3A;
     /*fill:none;*/
     shape-rendering: crispEdges;
 }
 
 .legend {
-    fill: #FFF;
+    fill: #3A3A3A;
     opacity: 0.8;
 }
 
 .legend line {
-    stroke: #FFF;
+    stroke: #3A3A3A;
     shape-rendering: crispEdges;
 }
 
@@ -134,13 +134,14 @@ p {
 }
 
 .items .background {
-    fill: #FFF;
+    fill: #BABABA;
     opacity: 0.2;
 }
 
 .items .type {
     opacity: 0.8;
     cursor: pointer;
+    fill: #6A6A6A;
 }
 
 .items .type:hover {
@@ -148,7 +149,7 @@ p {
 }
 
 .sidesvg .tick {
-    fill: #FFF;
+    fill: #3A3A3A;
     opacity: 0.9;
 }
 
@@ -191,7 +192,7 @@ p {
     font-size: 14px;
     font-weight: normal;
     padding-bottom: 5px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+    border-bottom: 1px solid rgba(58, 58, 58, 0.23);
 }
 
 #wordArea img {
@@ -212,7 +213,7 @@ p {
 }
 
 .wordArea .text {
-    color: #FFF;
+    color: #3A3A3A;
     position: relative;
     opacity: 0.8;
 }
@@ -226,7 +227,7 @@ p {
 }
 
 .wordArea .active .text {
-    color: #000;
+    color: #FFF;
     z-index: 200;
 }
 
@@ -235,12 +236,12 @@ p {
     bottom: -2px;
     height: 200%;
     /* top: -70%; */
-    background: rgba(255, 255, 255, 1);
+    background: rgb(58, 58, 58);
     position: absolute;
     /*font-size: 10px;*/
     padding: 4px;
     left: -4px;
-    color: #000;
+    color: #FFF;
     -webkit-animation: fadein 0.15s cubic-bezier(0, -0.530, 0.405, 1.425);
     -moz-animation: fadein 0.15s;
     /* Firefox */
@@ -335,29 +336,29 @@ p {
 
 #overlay text {
     font-size: 12px;
-    fill: #222;
+    fill: #FFF;
 }
 
 #overlay circle {
-    fill: #FFF;
+    fill: #3A3A3A;
     opacity: 0.22;
 }
 
 #overlay line {
-    stroke: #FFF;
+    stroke: #3A3A3A;
     opacity: 0.9;
 }
 
 #overlay rect {
-    fill: #FFF;
+    fill: #3A3A3A;
     opacity: 0.9;
 }
 
 .skip {
     position: relative;
     z-index: 200;
-    background: #E6E6E6;
-    color: #000;
+    background: #00567E;
+    color: #FFF;
     padding: 4px;
     font-size: 12px;
     /* left: 0; */

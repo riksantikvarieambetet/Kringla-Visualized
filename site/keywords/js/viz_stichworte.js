@@ -563,24 +563,10 @@ function generateOverlay () {
 }
 
 
-    var csvData = [];
+var csvData = [];
 
-    $(document).ready( function() {
-        //feedback button        
-        fm_options = {
-            jQueryUI : false,
-            position : "right-bottom",
-            // name_placeholder:"Name please",                     
-            trigger_label : "Feedback",
-              title_label: "Your observations, ideas and suggestions",             
-            message_required : true,
-            show_asterisk_for_required : false,
-            feedback_url : "send_feedback",
-            submit_label: "Send",
-            email_required: false,
-            callback: function(data){ 
-            },
-        };
+$(document).ready( function() {
+
 
     //overlay generieren, wenn man auf den help button klickt        
      overlay = d3.select("#overlay svg");     
@@ -624,7 +610,7 @@ function generateOverlay () {
         // erzeuge die colorscale
         var colorScale = d3.scale.linear()
             .domain([0, 1])
-            .range(["rgb(75, 75, 75)", "rgb(164, 5, 57)"]);
+            .range(["rgb(75, 75, 75)", "rgb(201, 74, 24)"]);
 
         // verknüpfe LI-elemente mit daten 
         var keywordsSelection = d3
@@ -719,8 +705,8 @@ function generateOverlay () {
             .attr("id", function (d) { return "t"+d.id; })
             .style("font-size", function(d) { return valueScale(d.value) + "em"; })
             .text( function (d) { return d.name; })
-            .style("background-color", "#222")
-            .style("color", "#ccc")
+            .style("background-color", "#FBFBFB")
+            .style("color", "#3A3A3A")
             .style("opacity", 1)
             .on("mouseover", function(d)  { customTip(d, 200) })
             .on("click", function (d) {
@@ -752,7 +738,7 @@ function generateOverlay () {
                             .duration(350)
                             .attr("class", "kickMe")
                             .style("color", "#181818")
-                            .style("background-color", "#222");
+                            .style("background-color", "#FBFBFB");
                         
                         d3.selectAll("#value")
                             .remove();
@@ -768,7 +754,7 @@ function generateOverlay () {
                                     .transition()
                                     .duration(350)
                                     .attr("class", "kickMe")
-                                    .style("background-color", "#222")
+                                    .style("background-color", "#FBFBFB")
                                     .style("color", colorScale.domain([colorMin, colorMax])(keywordCount[i].c))
                                 
                                 
@@ -782,8 +768,8 @@ function generateOverlay () {
                                     .transition()
                                     .duration(350)
                                     .attr("class", "active")
-                                    .style("color", "#000")
-                                    .style("background-color", "#ccc")
+                                    .style("color", "#FFF")
+                                    .style("background-color", "#DADADA")
                                     .style("background-clip", "content-box");
                                 
                                 d3.select(".subheader .container h1 span")
@@ -810,8 +796,8 @@ function generateOverlay () {
                             .transition()
                             .duration(350)
                             .attr("class", "kickMe")
-                            .style("color", "#181818")
-                            .style("background-color", "#222");
+                            .style("color", "#3A3A3A")
+                            .style("background-color", "#FBFBFB");
                         
 
                     }
@@ -821,8 +807,8 @@ function generateOverlay () {
                             .transition()
                             .duration(350)
                             .attr("class", "kickMe")
-                            .style("color", "#ccc")
-                            .style("background-color", "#222");
+                            .style("color", "#3A3A3A")
+                            .style("background-color", "#FBFBFB");
                        
                         selectedKeywordID = 0;
 

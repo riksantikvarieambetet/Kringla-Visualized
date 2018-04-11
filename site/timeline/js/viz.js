@@ -8,24 +8,6 @@
 *   generative design process
 */
 
-$(document).ready(function(){
-    fm_options = {
-        jQueryUI : false,
-        position : "right-bottom",
-        // name_placeholder:"Name please",                     
-        trigger_label : "Feedback",
-				title_label: "Your observations, ideas and suggestions",				
-        message_required : true,
-        show_asterisk_for_required : false,
-        feedback_url : "send_feedback",
-        submit_label: "Send",
-        email_required: false,
-        callback: function(data){ 
-        },
-    };
-
-});
-
 var ddbUrl = "https://www.deutsche-digitale-bibliothek.de/searchresults?query=&lang=en&offset=0&rows=20&viewType=grid";
 
 var margin = {top: 10, right: 20, bottom: 70, left: 5 },
@@ -110,40 +92,6 @@ var svg = d3.select("#chart")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     .classed("chart", true);
-
-
-// var mask = d3.select("svg defs")
-//   .append("mask")
-//       .attr("id", "info")
-// mask
-//     .append("rect")
-//       .attr("width", 1200)
-//       .attr("height", height + margin.top + margin.bottom)
-//       .attr("fill", "#FFF")
-// mask
-//     .append("rect")
-//       .attr("width", 200)
-//       .attr("height", 100)
-//       .attr("fill", "#000")
-
-
-// d3.select("svg")
-//   .append("rect")
-//     .attr("fill", "#222222")
-//     .attr("width", 1200)
-//     .attr("height", height + margin.top + margin.bottom)
-//     .attr("mask", "url(#info)")
-//     .attr("pointer-events", "none")
-//     .style("opacity", 0.8)
-
-// svg.append("defs").append("filter")
-//     .attr("id", "clippy")
-//     .attr("x", "0")
-//     .attr("y", "1")
-//     .attr("height", "248")
-//     .attr("width", "356")
-//     .append("feColorMatrix")
-//     .attr("type", "identity")
 
 queue()
   .defer(d3.csv, 'data/time_itemtype.csv')
@@ -995,7 +943,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
       .attr("width", barWidth)
       .attr("y", function(d) { return (isNaN(yScaleBarLog(d.count)) ? lineheight : yScaleBarLog(d.count)); })
       .attr("height", function(d) { return lineheight - (isNaN(yScaleBarLog(d.count)) ? lineheight : yScaleBarLog(d.count)); })
-      .style("fill", "#FFF")
+      .style("fill", "#6A6A6A")
       // .on('mouseover', function(d){
       //   console.log(d)
       //   i.selectAll(".type").style("opacity", function(e){
