@@ -1,3 +1,4 @@
+import csv
 import math
 import requests
 
@@ -16,12 +17,13 @@ class KeywordRelation:
         self.count = _count
 
 def uri_from_keyword_generator(word):
-    url = 'http://www.kulturarvsdata.se/ksamsok/api?method=search&query=itemKeyWord={0}&x-api={1}&hitsPerPage=500&recordSchema=xml&fields=itemId&startRecord='.format(word.value, user_input)
+    url = 'http://www.kulturarvsdata.se/ksamsok/api?method=search&query=itemKeyWord="{0}"&x-api={1}&hitsPerPage=500&recordSchema=xml&fields=itemId&startRecord='.format(word.value, user_input)
     required_n_requests = math.ceil(word.count / 500)
 
     count = 0
     while required_n_requests > count:
         start_record = count * 500
+        count += 1
         r = requests.get(url + str(start_record), headers=headers)
         raw = r.json()
         for item in raw['result']['records']['record']:
@@ -56,6 +58,22 @@ print('calculating relations')
 
 list_keyword_relations = []
 
+csv_file = open('datatags.csv', 'w')
+spamwriter = csv.writer(csv_file)
+
 for word in keyword_list:
-    pass
-    #TODO
+    for word2 in keyword_list:
+        if word.value == word2.value:
+            print(word.id, word2.id, len(word.records), word2.value)
+            spamwriter.writerow([word.id, word2.id, len(word.records), word2.value])
+        else:
+            count_shared_records = 0
+            for record in word.records:
+                if record in word2.records:
+                    count_shared_records += 1
+            if count_shared_records is not 0:
+                print(word.id, word2.id, count_shared_records, word2.value)
+                spamwriter.writerow([word.id, word2.id, count_shared_records, word2.value])
+
+csv_file.close()
+print('DONE')
