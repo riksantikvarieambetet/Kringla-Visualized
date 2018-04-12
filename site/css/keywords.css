@@ -37,7 +37,6 @@ body {
 
 .main {
     text-rendering: optimizeLegibility;
-    font-family: "KarbidWeb", sans-serif;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -59,7 +58,6 @@ body {
 }
 
 .d3-tip h3 {
-    font-family: "KarbidWeb", sans-serif;
     font-style: italic;
     line-height: 1.2rem;
     font-size: 1rem;
@@ -71,7 +69,6 @@ body {
 .d3-tip p {
     color: #C94A18;
     font-weight: 400;
-    font-family: "KarbidWeb", sans-serif;
     font-style: normal;
     font-size: 0.625rem;
     line-height: 0.75rem;

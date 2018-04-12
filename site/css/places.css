@@ -87,7 +87,6 @@ p.value {
 }
 
 .d3-tip h3 {
-    font-family: KarbidWeb, sans-serif;
     line-height: 1.2rem;
     font-size: 1rem;
     color: #222;
@@ -97,7 +96,6 @@ p.value {
 
 .d3-tip p {
     color: #222;
-    font-family: KarbidWeb, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 10px;
@@ -109,7 +107,6 @@ p.value {
 .d3-tip p.description {
     text-align: left;
     color: #222;
-    font-family: KarbidWeb, sans-serif;
     font-size: 10px;
     line-height: 14px;
     padding: 5px 0 5px 0;
