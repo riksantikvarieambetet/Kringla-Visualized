@@ -20,8 +20,8 @@ function generateOverlay () {
     var infos = 
         [
             { x: 355, y: 235, text: "Circle size is defined by the number of entries", r: 30},
-            { x: 150, y: 360, text: "Arc length represents the number of entries for a given sector", r: 25},
-            { x: 950, y: 520, text: "Hovering mouse over an arc displays name of the corresponding sector", r: 30},
+            { x: 150, y: 360, text: "Arc length represents the number of entries for a given object type", r: 25},
+            { x: 950, y: 520, text: "Hovering mouse over an arc displays name of the corresponding object type", r: 30},
             { x: 55, y: 140, text: "Sorted by alphabet or by frequency", r: 20}
         ];
 
