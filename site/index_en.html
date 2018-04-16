@@ -33,12 +33,11 @@
 
 <div class="subheader">
   <div class="container">
-    <h1>How does a collection of over 7&nbsp;million cultural heritage objects look like?</h1>
-    <p>
-			The <a href="https://www.deutsche-digitale-bibliothek.de/">German Digital Library</a> provides access
-			to a continuously growing collection that is part of the digital cultural heritage of German cultural and academic institutions. This project attempts to make the dimensions of this stock of artefacts, documents and resources visible and tangible with the help of interactive visualizations.
-			The resulting representations are experimental overviews of the temporal and spatial distribution of objects and the associated topics, people, and organizations.
-		</p>
+    <h1>How does a collection of over 7 <br>million cultural heritage objects look like?</h1>
+	<p>
+		<a href="http://kringla.nu/">Kringla</a> provides access to a continuously growing collection that is part of the digital cultural heritage of Swedish museums and other cultural institutions. This project attempts to make the dimensions of this data visible and tangible with the help of interactive visualizations.
+		The resulting representations are experimental overviews of the temporal and spatial distribution of objects and the associated topics, people, and institutions.
+	</p>
   </div>
 </div>
 
@@ -48,9 +47,8 @@
 <div class="project">
 <a href="timeline/">
 <img src="index/time.png" width=265 height=265>
-<h2>Periods &amp; Sectors</h2>
-<p>This overview visualizes the most common keywords, places, persons, and organizations
-	over time.</p></a>
+<h2>Periods &amp; Object types</h2>
+<p>This overview visualizes the most common keywords, places, and institutions over time.</p></a>
 </div>
 
 <div class="project">
@@ -61,8 +59,8 @@
 
 <div class="project">
 <a href="places/"><img src="index/cities.png" width=265 height=265>
-<h2>Places &amp; Sectors</h2>
-<p>An overview of cities with the most entries. The rings are subdivided by the different institution types.</p></a>
+<h2>Places &amp; Object types</h2>
+<p>An overview of regions with the most entries. The rings are subdivided by the different object types.</p></a>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
@@ -75,28 +73,19 @@
 
 	<h2>Background</h2>
 	<p>
-		The visualizations are the result of an exploratory study aimed at generating innovative perspectives on the collection of the <a href="https://www.deutsche-digitale-bibliothek.de/">German Digital Library</a> (Deutsche Digitale Bibliothek, DDB) and make them available as visual and interactive representations.
-		In contrast to existing search interfaces, which show only a few objects as part of result lists, the presented views should show the distribution of objects along time, place, topic, people, and other dimensions.
+		The visualizations was created within the scope of the Swedish National Heritage Board's evaluation of generous interfaces as a complement to common web interfaces of Archives and Museums often dominated by text search. This prototype focuses on metadata. This site is based on previous work done by <a href="http://fh-potsdam.de/">Potsdam University of Applied Sciences</a> and <a href="http://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a>.
 	</p>
 
 	<h2 class="faq">FAQ</h2>
 
 	<p class="faq">
-<strong>How are the visualizations related with the metadata fiels of the DDB?</strong><br>
-The visualizations are solely based on the facets (e.g., persons &amp; organizations),
-which the DDB exposes via the search interface or the API method <a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/indexing-profile">indexing-profile</a>.
-<br><br>
-<strong>Are the visualizations optimized for accessibility?</strong><br>
-No, at the moment the pages and visualizations are unfortunately not yet optimized towards accessibility.
-<br><br>
-<strong>Why do the numbers of the objects sometimes do not match the numbers displayed on the DDB website?</strong>
-<br>
-The visualizations are based on a data snapshot from June 2014 and do not represent the current state of the DDB collection.
-<br><br>
-<strong>Which browser versions are supported?</strong>
-<br>
-The visualizations were developed towards the current versions of the four most used browsers (June 2014): Chrome 35, Safari 7, Firefox 30, Internet Explorer 11. The visualizations have not yet been optimized for mobile devices.
-</p>
+		<strong>How are the visualizations related with the metadata fields of Kringla.nu?</strong><br>
+		The visualizations are based data from the Swedish Open Cultural Heritage API (SOCH/K-Samsök), it might contain more data and metadata fields then those visible at Kringla.nu.
+		<br><br>
+		<strong>Why do the numbers of the objects sometimes do not match the numbers displayed on kringla.nu?</strong>
+		<br>
+		The visualizations are based on data snapshots and might not be up to date.
+	</p>
 
 	</div>
 </div>
@@ -104,17 +93,10 @@ The visualizations were developed towards the current versions of the four most 
 <div class="footer">
 <div class="container">
 
-<a href="http://www.informationisbeautifulawards.com/showcase/897-how-does-a-collection-of-over-7-million-cultural-heritage-objects-look-like"><img height="150" width="150" src="index/shortlist.png" alt="informationisbeautifulawards"></a>
-<a href="http://uclab.fh-potsdam.de/"><img width="300" src="index/uclab.png" alt="Logo Urban Complexity Lab FH Potsdam"></a>
-<a href="https://www.deutsche-digitale-bibliothek.de/"><img height=150 width=300 src="index/ddb.png" alt="Logo Deutsche Digitale Bibliothek"></a>
-
-<p>A collaboration between <a href="http://fh-potsdam.de/">Potsdam University of Applied Sciences</a> and <a href="http://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a><br>
-
-	Design and implementation: <a href="http://www.cbernhardt.net/" target="_blank">Christian Bernhardt</a>, <a href="http://www.gabrielcredico.de/" target="_blank">Gabriel Credico</a> und <a href="http://www.chrispie.com/" target="_blank">Christopher Pietsch</a><br>
-	Scientific supervision: <a href="http://mariandoerk.de/" target="_blank">Prof. Dr. Marian Dörk</a> &nbsp;
-	Consulting: Stephan Bartholmei
-
-
+<p>
+	Created by the <a href="https://raa.se/">Swedish National Heritage Board</a>.<br>
+	Built on top of the <a href="https://www.raa.se/in-english/digital-services/about-soch/">Swedish Open Cultural Heritage API</a>.<br>
+	The <a href="https://github.com/riksantikvarieambetet/Kringla-Visualized">source code</a> is available under MIT. The data under CC0.
 </p>
 
 </div>
