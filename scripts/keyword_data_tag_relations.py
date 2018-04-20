@@ -1,5 +1,6 @@
 import csv
 import math
+import time
 import requests
 
 class Keyword:
@@ -27,7 +28,9 @@ def uri_from_keyword_generator(word):
         r = requests.get(url + str(start_record), headers=headers)
         raw = r.json()
         for item in raw['result']['records']['record']:
-            yield item['field']['content']
+            # sometimes there are empty records
+            if len(item) == 2:
+                yield item['field']['content']
 
 user_input = input('Enter you SOCH API key:')
 
@@ -41,6 +44,7 @@ print('fetching keywords')
 r = requests.get(core_url, headers=headers)
 raw = r.json()
 
+start = time.time()
 print('processing keywords')
 keyword_list = []
 for i, word in enumerate(raw['result']['term']):
@@ -54,6 +58,8 @@ for word in keyword_list:
         word.records.append(uri)
 
 print('done fetching data')
+print(time.time() - start)
+start = time.time()
 print('calculating relations')
 
 list_keyword_relations = []
@@ -61,19 +67,18 @@ list_keyword_relations = []
 csv_file = open('datatags.csv', 'w')
 spamwriter = csv.writer(csv_file)
 
+proccessed_word_list = list(keyword_list)
 for word in keyword_list:
-    for word2 in keyword_list:
+    for word2 in proccessed_word_list:
         if word.value == word2.value:
-            print(word.id, word2.id, len(word.records), word2.value)
             spamwriter.writerow([word.id, word2.id, len(word.records), word2.value])
         else:
-            count_shared_records = 0
-            for record in word.records:
-                if record in word2.records:
-                    count_shared_records += 1
+            count_shared_records = len(set(word.records) & set(word2.records))
             if count_shared_records is not 0:
-                print(word.id, word2.id, count_shared_records, word2.value)
                 spamwriter.writerow([word.id, word2.id, count_shared_records, word2.value])
+                spamwriter.writerow([word2.id, word.id, count_shared_records, word.value])
+    proccessed_word_list.pop(0)
 
 csv_file.close()
+print(time.time() - start)
 print('DONE')
