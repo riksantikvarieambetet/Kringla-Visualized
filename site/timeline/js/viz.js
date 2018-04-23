@@ -258,9 +258,9 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
   var tip = d3.tip().offset([-5, 0]).attr('class', 'd3-tip')
     .html(function(d) {
       //console.log(d)
-      if(d.types) return dataSector.get(d.key,"nameEn");
+      if(d.types) return dataSector.get(d.key,"name");
       else {
-        return dataType.get(d.key,"nameEn") + ": " +d3.format(",")(d.count).replace(/,/g,".");
+        return dataType.get(d.key,"name") + ": " +d3.format(",")(d.count).replace(/,/g,".");
       }
     });
 
@@ -333,7 +333,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
       .attr("class", "group-label")
      // .attr("x", -6)
       .attr("text-anchor", "start")
-      .text(function(d) { return dataSector.get(d.key,"nameEn"); })
+      .text(function(d) { return dataSector.get(d.key,"name"); })
       .attr('transform', function(d, i){ 
         return "translate("+ (yScaleTotal(d3.sum(d.values, function(d){ return d.count; })) + 5) + "," + (lineheight / 2 +3) +")";
       })
@@ -714,7 +714,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
     //console.log("words", words)
 
     var nestedWords = d3.nest()
-    .key(function(d) { return d.nameEn; })
+    .key(function(d) { return d.name; })
     .entries(words)
     
     nestedWords.forEach(function(d){
