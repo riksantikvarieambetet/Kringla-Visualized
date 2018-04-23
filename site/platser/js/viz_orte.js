@@ -114,7 +114,7 @@ function drawPie(dataSet, selectString, outerRadius, cityName) {
         d3.selectAll("#pie-arc")
         .transition()
         .duration(350)
-        .style('opacity', .2);
+        .style('opacity', .6);
         
         arc.style('opacity', 1)
         .transition()
