@@ -68,7 +68,7 @@
 }
 
 .footer a:first-child img {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .footer a:first-child:hover img {
@@ -76,7 +76,7 @@
 }
 
 .footer img {
-    margin: 25px;
+    margin: 20px;
     margin-left: 0px;
     border: 0;
     opacity: 0.85;
