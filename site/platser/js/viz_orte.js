@@ -55,23 +55,6 @@ function generateOverlay () {
     })
 }
 
-    $(document).ready( function() {
-    // feedback feld
-    fm_options = {
-        jQueryUI : false,
-        position : "right-bottom",
-        // name_placeholder:"Name please",                     
-        trigger_label : "Feedback",
-        title_label: "Ihre Beobachtungen, Ideen und Vorschläge",
-        message_required : true,
-        show_asterisk_for_required : false,
-        feedback_url : "send_feedback",
-        submit_label: "Absenden",
-        email_required: false,
-        callback: function(data){ 
-        },
-    };
-
     //bei seitenstart - animation abspielen fade in
     d3.select("#wrapper")
         .style("opacity", 0)
