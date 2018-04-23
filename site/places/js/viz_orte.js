@@ -86,8 +86,6 @@ function generateOverlay () {
                 .classed("active", false);
             overlay.style("display", "none")
         });
-        
-    });
 
 
 //all die schönen kreise entstehen hier
