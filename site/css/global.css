@@ -32,7 +32,7 @@ p {
 }
 
 .header h1 {
-    font-weight: 200;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 17px;
     letter-spacing: 1px;
@@ -43,14 +43,13 @@ p {
 }
 
 .header h1 span {
+    font-weight: 200;
     display: inline;
 }
 
 .header span,
 .header a {
-    font-weight: normal;
     font-size: 17px;
-    font-weight: 500;
     color: #6A6A6A;
     font-size: 17px;
 }
