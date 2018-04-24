@@ -3,7 +3,7 @@ import csv
 import requests
 
 user_input = input('Enter you SOCH API key:')
-core_url = 'http://www.kulturarvsdata.se/ksamsok/api?method=facet&index=fromTime&query=*&x-api={0}'.format(user_input)
+core_url = 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=*&x-api={0}'.format(user_input)
 
 headers = {
     'Accept': 'json'
@@ -12,9 +12,9 @@ headers = {
 r = requests.get(core_url, headers=headers)
 raw = r.json()
 
-list_of_values = []
+list_of_values = set()
 for item in raw['result']['term']:
-    list_of_values.append(item['indexFields']['value'])
+    list_of_values.add(item['indexFields']['value'])
 
 list_of_values = sorted(list_of_values, key=int)
 
