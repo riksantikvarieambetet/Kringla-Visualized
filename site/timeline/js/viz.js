@@ -145,7 +145,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
   var dataWords = [
     { key: "Keywords", values: dataKeywords, href: "../keywords" },
     { key: "Places", values: dataPlaces, href: "../places"},
-    { key: "Persons/Organizations", values: dataAffiliates, href: "../networks" }
+    { key: "Institutions", values: dataAffiliates, href: "#" }
   ];
 
   colorScale = function(d){
