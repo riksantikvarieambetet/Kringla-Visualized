@@ -34,7 +34,7 @@
 
 <div class="subheader">
   <div class="container">
-    <h1>Hur ser en samling på över 7 <br>miljoner kulturobjekt och föremål ut?</h1>
+    <h1>Hur ser en samling på över 7 miljoner kulturobjekt och föremål ut?</h1>
 	<p>
 		<a href="http://kringla.nu/">Kringla</a> tillgängligör en växande samling av föremål och kulturobjekt från Svenska museum och andra kulturarvsinstitutioner. Detta projekt försöker synligöra och tillgängligöra omfånget av denna datamängd genom interktiva visualiseringar.
 		De resulterande vyerna är experimentella representationer av information relaterad till platser, nyckelord, institutioner och tid.
@@ -46,22 +46,22 @@
 <div class="container">
 
 <div class="project">
-<a href="epochen/">
+<a href="tidslinje/">
 <img src="index/time.png" width=265 height=265>
-<h2>Epochen &amp; Sparten</h2>
-<p>Die zeitliche Übersicht visualisiert die häufigsten Stichworte, Orte, Personen und Organisationen pro Zeitabschnitt.</p></a>
+<h2>Tidslinje &amp; Objekttyper</h2>
+<p>Denna översikt visualiserar de vanligaste nyckelorden, institutionerna och landskapen i över tid..</p></a>
 </div>
 
 <div class="project">
-<a href="stichworte/"><img src="index/tags.png" width=265 height=265>
-<h2>Stichworte</h2>
-<p>Die häufigsten Stichworte werden der Größe nach abgebildet. Gemeinsames Auftreten wird durch Klicken visualisiert.</p></a>
+<a href="nyckelord/"><img src="index/tags.png" width=265 height=265>
+<h2>Nyckelord</h2>
+<p>Det vanligaste nyckelorden sorterade efter förekomst. Gemensama förekomter visas vid klick på ett nyckelord.</p></a>
 </div>
 
 <div class="project">
 <a href="orte/"><img src="index/cities.png" width=265 height=265>
-<h2>Orte &amp; Sparten</h2>
-<p>Übersicht der Städte mit den meisten Einträgen. Die Ringe sind entsprechend der vertretenen Sparten unterteilt.</p></a>
+<h2>Landskap &amp; Objekttyper</h2>
+<p>Överskit över mängd och objekttyps fördelning per landskap.</p></a>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
@@ -72,52 +72,37 @@
 
 <div class="container">
 
-	<h2>Hintergrund</h2>
+	<h2>Bakgrund</h2>
 	<p>
-		<!-- Die <a href="https://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a> (DDB) ist ein Gemeinschaftsprojekt von Bund, Ländern und Kommunen, das den Anspruch hat, den freien Zugang zum kulturellen und wissenschaftlichen Erbe Deutschlands über ein Webportal zu ermöglichen. -->
-<!-- <br><br> -->
-		Die Visualisierungen sind das Resultat einer explorativen Untersuchung, die zum Ziel hatte, innovative Perspektiven auf den Bestand der <a href="https://www.deutsche-digitale-bibliothek.de/">Deutschen Digitalen Bibliothek</a> (DDB) zu entwickeln und in Form visueller und interaktiver Ansichten bereit zu stellen. Im Gegensatz zu existierenden Suchoberflächen, die wenige Objekte in Form von Ergebnislisten präsentieren, sollen die vorgestellten Ansichten die Streuung vieler Objekte entlang von Zeit, Ort, Thema, Person und anderen Dimensionen sichtbar machen.
+		Dessa visualiseringar skapades inom <a href="https://raa.se/">Riksantikvarieämbetet</a>s utvärdering av generösa användargränssnitt som ett komplement till webbgränssnitt såsom textsök som ofta domminerar inom ABKM sektorn. Denna prototyp fockuserar på metadata. Denna webbsida är baserad på tidigare arbete gjort av <a href="http://fh-potsdam.de/">Potsdam University of Applied Sciences</a> och <a href="http://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a>.
 	</p>
 
 	<h2 class="faq">FAQ</h2>
 
 	<p class="faq">
-<strong>Wie hängen die Visualisierungen mit den Metadatenfeldern der DDB zusammen?</strong><br>
-Die Visualisierungen basieren ausschließlich auf den Facetten (zum Beispiel Personen &amp; Organisationen), welche die DDB in ihrem Suchinterface in der Seitenleiste bzw. in der API über <a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/indexing-profile">indexing-profile</a> bereitstellt.
-<br><br>
-<strong>Sind die Visualisierungen barrierefrei?</strong><br>
-Nein, im Moment sind die Seiten bzw. Visualisierungen leider noch nicht auf Barrierefreiheit hin optimiert.
-<br><br>
-<strong>Warum stimmt manchmal nicht die Anzahl von Objekten in den Visualisierungen mit der entsprechenden Zahl auf der DDB-Seite überein?
-</strong>
-<br>
-Die Visualisierungen basieren auf einem Schnappschuss der Daten von Juni 2014 und bilden nicht den aktuellsten Datenbestand der DDB ab.
-<br><br>
-<strong>Welche Browser-Versionen werden unterstützt?</strong>
-<br>
-Die Visualisierungen wurden im Hinblick auf die aktuellen Versionen der vier meistverwendeten Browser entwickelt  (Juni 2014): Chrome 35, Safari 7, Firefox 30, Internet Explorer 11. Die Visualisierungen sind nicht für mobile Geräte optimiert.
-</p>
+		<strong>Hur är visualiseringarna relaterade till metadata fälten på Kringla.nu?</strong><br>
+		Visualiseringarna är baserade på data från K-Samsök, denna data kan innhålla mer information än den som är synlig på Kringla. Ibland har Kringla inget gränsnitt för en specik typ av filter men filtret slår ändå igenom i resultatet.
+		<br><br>
+		<strong>Varför skilljer sig antalet objekt i visualiseringarna från antalet objekt på Kringla?</strong>
+		<br>
+		Visualiseringarna är baserade på statiska datautag och dessa kan bli utdaterade.
+		<br><br>
+		<strong>Varför skilljer sig antalet objekt åt från visualisering till visualisering?</strong>
+		<br>
+		De olika visualiseringarna ställer olika krav på den underliggande datan, som ett resultat kvalifiserar olika objekt till olika visualiseringar.
+	</p>
 
 	</div>
 </div>
 
 <div class="footer">
-<div class="container">
-
-<a href="http://www.informationisbeautifulawards.com/showcase/897-how-does-a-collection-of-over-7-million-cultural-heritage-objects-look-like"><img height="150" width="150" src="index/shortlist.png" alt="informationisbeautifulawards"></a>
-<a href="http://uclab.fh-potsdam.de/"><img width="300" src="index/uclab.png" alt="Logo Urban Complexity Lab FH Potsdam"></a>
-<a href="https://www.deutsche-digitale-bibliothek.de/"><img height=150 width=300 src="index/ddb.png" alt="Logo Deutsche Digitale Bibliothek"></a>
-
-<p>Ein Gemeinschaftsprojekt von <a href="http://fh-potsdam.de/">Fachhochschule Potsdam</a> und <a href="http://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a><br>
-
-	Design und Umsetzung: <a href="http://www.cbernhardt.net/" target="_blank">Christian Bernhardt</a>, <a href="http://www.gabrielcredico.de/" target="_blank">Gabriel Credico</a> und <a href="http://www.chrispie.com/" target="_blank">Christopher Pietsch</a><br>
-	Wissenschaftliche Leitung: <a href="http://mariandoerk.de/" target="_blank">Prof. Dr. Marian Dörk</a> &nbsp;
-	Beratung: Stephan Bartholmei
-
-
-</p>
-
-</div>
+	<div class="container">
+		<a href="https://raa.se/"><img src="raa_logo.svg" alt="Riksantikvarieämbetets logotyp" width="300px"/></a>
+		<p>
+			Byggt på <a href="https://www.raa.se/hitta-information/k-samsok/">K-Samsök</a>.<br>
+			<a href="https://github.com/riksantikvarieambetet/Kringla-Visualized">Källkoden</a> är licensierad under MIT och datan under CC0.
+		</p>
+	</div>
 </div>
 
 </body>
