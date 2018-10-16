@@ -11,7 +11,7 @@ headers = {
 }
 
 def get_province_time_counts_url(province):
-    return 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=provinceName={0}&removeBelow=1&x-api={1}'.format(province, user_input)
+    return 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=provinceName={0}%20AND%20(create_fromTime>=0%20OR%20produce_fromTime>=0%20OR%20use_fromTime>=0)%20OR%20(create_fromTime<=0%20OR%20produce_fromTime<=0%20OR%20use_fromTime<=0)&removeBelow=1&x-api={1}'.format(province, user_input)
 
 with open('time_fct.csv', 'r') as f:
     time_fcts = list(csv.reader(f))
