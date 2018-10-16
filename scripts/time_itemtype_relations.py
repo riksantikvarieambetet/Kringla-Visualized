@@ -9,7 +9,7 @@ headers = {
 }
 
 def get_itemtype_time_counts_url(itemtype):
-    return 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=itemType="{0}"&removeBelow=1&x-api={1}'.format(itemtype, user_input)
+    return 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=itemType="{0}"%20AND%20(create_fromTime>=0%20OR%20produce_fromTime>=0%20OR%20use_fromTime>=0)%20OR%20(create_fromTime<=0%20OR%20produce_fromTime<=0%20OR%20use_fromTime<=0)&removeBelow=1&x-api={1}'.format(itemtype, user_input)
 
 with open('time_fct.csv', 'r') as f:
     time_fcts = list(csv.reader(f))
@@ -46,7 +46,7 @@ for index in list_of_itemtypes:
                 fct_count += count['records']
 
         if fct_count > 0:
-            raw_list_result.append([fct[0], itemtype, index[0], fct_count])
+            raw_list_result.append([index[0], fct[0], fct_count])
 
 # calculate "other" type
 print('Calculating others, this might take a while...')
@@ -92,7 +92,7 @@ for fct in time_fcts:
                 fct_count += count['records']
     
     if fct_count > 0:
-        raw_list_result.append([fct[0], '', 7, fct_count])
+        raw_list_result.append([7, fct[0], fct_count])
 
 
 with open('time_itemtype.csv', 'w') as output:

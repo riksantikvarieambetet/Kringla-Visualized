@@ -3,7 +3,7 @@ import csv
 import requests
 
 user_input = input('Enter you SOCH API key:')
-core_url = 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=*&x-api={0}'.format(user_input)
+core_url = 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=(create_fromTime>=0%20OR%20produce_fromTime>=0%20OR%20use_fromTime>=0)%20OR%20(create_fromTime<=0%20OR%20produce_fromTime<=0%20OR%20use_fromTime<=0)&x-api={0}'.format(user_input)
 
 headers = {
     'Accept': 'json'
