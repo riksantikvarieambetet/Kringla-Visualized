@@ -28,10 +28,14 @@ for i, fct in enumerate(time_fcts):
     for value in list_of_values:
         try:
             if int(fct[0]) <= value <= int(time_fcts[i+1][0]) and value != int(time_fcts[i+1][0]):
-                fct_filter += '&fromTime%3D' + str(value)
+                if len(fct_filter) > 0:
+                    fct_filter += '%20OR%20'
+                fct_filter += '(create_fromTime>={0}%20OR%20produce_fromTime>={0}%20OR%20use_fromTime>={0})'.format(value)
         except:
             if int(fct[0]) <= value:
-                fct_filter += '&fromTime%3D' + str(value)
+                if len(fct_filter) > 0:
+                    fct_filter += '%20OR%20'
+                fct_filter += '(create_fromTime>={0}%20OR%20produce_fromTime>={0}%20OR%20use_fromTime>={0})'.format(value)
     fct.insert(0, fct_filter)
     fct.insert(0, i)
 

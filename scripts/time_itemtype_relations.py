@@ -42,7 +42,8 @@ for index in list_of_itemtypes:
             if value in values_checked:
                 continue
             values_checked.append(value)
-            if '&fromTime%3D' + str(value) in fct[1]:
+
+            if '(create_fromTime>={0}%20OR%20produce_fromTime>={0}%20OR%20use_fromTime>={0})'.format(value) in fct[1]:
                 fct_count += count['records']
 
         if fct_count > 0:
