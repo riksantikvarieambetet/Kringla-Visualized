@@ -701,7 +701,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
 
   }
 
-  var urlTable = { "Keywords" : "keywords_fct", "Places" : "place_fct", "Persons/Organizations" : "affiliate_fct_role", }
+  var urlTable = { "Keywords" : "keywords_fct", "Places" : "place_fct", "Institutions" : "affiliate_fct_role", }
 
   function drawWords(area,data,selected,timeRange){
 
@@ -1209,7 +1209,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
       {
         x: 900,
         y: 520,
-        text: "Top 20 persons and organizations of the selection",
+        text: "Top 20 institutions of the selection",
         r: 20
       },
       {
