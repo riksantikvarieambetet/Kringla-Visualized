@@ -1,0 +1,4 @@
+1,mediaType="video-dummy"
+2,mediaType="audio/mpeg3"
+3,mediaType="text/plain" OR mediaType="http://kulturarvsdata.se/resurser/mediatype#text/plain" OR mediaType="application/pdf" OR mediaType="text/html"
+4,mediaType="image/jpeg" OR mediaType="http://kulturarvsdata.se/resurser/mediatype#image/jpeg"

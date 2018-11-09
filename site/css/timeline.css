@@ -143,6 +143,13 @@ p {
     fill: #6A6A6A;
 }
 
+
+.items .type,
+.bar.axis,
+.items .background {
+    display: none;
+}
+
 .items .type:hover {
     opacity: 1;
 }

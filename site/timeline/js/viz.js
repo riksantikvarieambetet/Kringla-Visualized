@@ -11,7 +11,7 @@
 var ddbUrl = "https://www.deutsche-digitale-bibliothek.de/searchresults?query=&lang=en&offset=0&rows=20&viewType=grid";
 
 var margin = {top: 10, right: 20, bottom: 70, left: 5 },
-    width = 1200-190 - margin.left - margin.right,
+    width = 1080 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom,
     lineheight = height;
 
@@ -647,7 +647,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
 
 
   var sidesvg = svg.append("g")
-    .attr("transform", "translate(" + (width + 15) + "," + (margin.top-linepadding) + ")")
+    .attr("transform", "translate(" + (width - 50) + "," + (margin.top-linepadding) + ")")
     .classed("sidesvg", true)
 
   var totalBar = sidesvg.append("g");  
@@ -1183,12 +1183,6 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
         r: 10
       },
       {
-        x: 1028,
-        y: 60,
-        text: "Media type",
-        r: 40
-      },
-      {
         x: 1080,
         y: 195,
         text: "Number of objects found per sector within time span",
@@ -1291,13 +1285,11 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
           text
             .attr("transform", "translate("+(p ? (-bb.width-8) : (4+4))+","+20+")")
 
-          //console.log(bb)
           // todo: 14 height anpassen
           background
             .attr("width", bb.width+(4*2))
             .attr("height", 22)
             .attr("transform", "translate("+(p ? (-bb.width-12) : 4)+","+(15-(14)+4)+")");
-
           infoTip
             .transition()
             .ease("elastic")
