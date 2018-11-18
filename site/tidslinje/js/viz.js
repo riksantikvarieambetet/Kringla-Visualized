@@ -11,7 +11,7 @@
 var ddbUrl = "https://www.deutsche-digitale-bibliothek.de/searchresults?query=&offset=0&rows=20&viewType=grid";
 
 var margin = {top: 10, right: 20, bottom: 70, left: 5 },
-    width = 1200-190 - margin.left - margin.right,
+    width = 1080 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom,
     lineheight = height;
 
@@ -677,7 +677,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
 
 
   var sidesvg = svg.append("g")
-    .attr("transform", "translate(" + (width + 15) + "," + (margin.top-linepadding) + ")")
+    .attr("transform", "translate(" + (width - 50) + "," + (margin.top-linepadding) + ")")
     .classed("sidesvg", true)
 
   var totalBar = sidesvg.append("g");  
@@ -1209,12 +1209,6 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
         y: 60,
         text: "Lineare Skala",
         r: 10
-      },
-      {
-        x: 1028,
-        y: 60,
-        text: "Medientypen",
-        r: 40
       },
       {
         x: 1080,
