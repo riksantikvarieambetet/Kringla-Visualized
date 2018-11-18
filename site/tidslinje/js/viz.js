@@ -143,9 +143,9 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
   });
 
   var dataWords = [
-    { key: "Stichworte", values: dataKeywords, href: "../stichworte" },
-    { key: "Orte", values: dataPlaces, href: "../orte"},
-    { key: "Personen/Organisationen", values: dataAffiliates, href: "../netzwerke" }
+    { key: "Nyckelord", values: dataKeywords, href: "../nyckelord" },
+    { key: "Landskap", values: dataPlaces, href: "../platser"},
+    { key: "Institutioner", values: dataAffiliates, href: "#" }
   ];
 
   colorScale = function(d){
@@ -646,7 +646,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
     ]
 
     d3.select(".timerange").text(function(d){
-      return " von "+ yearRange[0] + " bis " + yearRange[1] + "";
+      return " från "+ yearRange[0] + " till " + yearRange[1] + "";
     })
 
     var facetRange = [
@@ -692,7 +692,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
 
   e.append("h2")
     .append("a")
-      .attr("title", "zur Detailvisualisierung springen")
+      .attr("title", "till visualiseringen")
       .attr("href", function(d){ return d.href; })
     .text(function(d){ return d.key; })
     .append("img")
@@ -1186,58 +1186,58 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
     overlay.style("display", "inline").selectAll("*").remove();
 
     var infos = [
-      // {
-      //   x: 10,
-      //   y: 10,
-      //   text: "Listenansicht",
-      //   r: 5
-      // },
+      {
+        x: 45,
+        y: 15,
+        text: "Växla mellan separata grafer och staplade grafer",
+        r: 0
+      },
       {
         x: 10,
         y: 300,
-        text: "Spartenname",
-        r: 10
+        text: "Objekttyp",
+        r: 0
       },
       {
         x: 600,
         y: 60,
-        text: "Logaritmische Skala",
+        text: "Logaritmisk skala",
         r: 10
       },
       {
         x: 810,
         y: 60,
-        text: "Lineare Skala",
+        text: "Linjär skala",
         r: 10
       },
       {
         x: 1080,
         y: 195,
-        text: "Anzahl der Einträge",
+        text: "Antal objekt hittades per typ inom tidsperioden",
         r: 30
       },
       {
         x: 130,
         y: 520,
-        text: "Top 20 Stichworte der Auswahl",
+        text: "Topp 20 nyckelord ifrån det aktuella urvalet",
         r: 20
       },
       {
         x: 420,
         y: 520,
-        text: "Top 20 Orte der Auswahl",
+        text: "Topp 20 platser ifrån det aktuella urvalet",
         r: 20
       },
       {
         x: 900,
         y: 520,
-        text: "Top 20 Personen und Organisationen der Auswahl",
+        text: "Topp 20 institutioner ifrån det aktuella urvalet",
         r: 20
       },
       {
         x: 565,
         y: 454,
-        text: "Sprung zur Detailvisualisierung",
+        text: "Hoppa till detalj",
         r: 15
       }
     ];

@@ -1167,7 +1167,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
       {
         x: 10,
         y: 300,
-        text: "Cultural heritage sector",
+        text: "Object type",
         r: 0
       },
       {
