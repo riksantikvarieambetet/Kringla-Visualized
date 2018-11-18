@@ -525,11 +525,11 @@ function generateOverlay () {
    }
     var infos = 
         [
-            { x: 105, y: 190, text: "Ausgwähltes Stichwort, erneut klicken um die Auswahl zu deselektieren", r: 30},
-            { x: 920, y: 200, text: "Viele gemeinsame Einträge sind rot", r: 20},
-            { x: 240, y: 445, text: "Wenige gemeinsame Einträge sind grau", r: 15},
-            { x: 670, y: 310, text: "Keine gemeinsamen Einträge sind schwarz", r: 10},
-            { x: 270, y: 35, text: "Verlinkung zu www.deutsche-digitale-bibliothek.de", r: 20}
+            { x: 105, y: 190, text: "Valt sökord, klicka igen för att avbryta urvalet", r: 30},
+            { x: 920, y: 200, text: "Många gemensamma poster är röda", r: 20},
+            { x: 240, y: 445, text: "Få gemensamma poster är gråa", r: 15},
+            { x: 670, y: 310, text: "Inga gemensamma poster är svarta", r: 10},
+            { x: 270, y: 35, text: "Länk till kringla.nu", r: 20}
         ];
 
 //wieder magie mit mathe
@@ -638,7 +638,7 @@ $(document).ready( function() {
                     
                     var tag = $("#t"+d.id);
 
-                    $("#tip p").text(formatNumber(hoveredKeywordData.c)+" Einträge. Erneutes Klicken hebt die Auswahl auf."); 
+                    $("#tip p").text(formatNumber(hoveredKeywordData.c)+" poster. Klicka igen för att avbryta valet."); 
                     $("#tip").css({
                                 "top": 
                                     tag.offset().top
@@ -658,7 +658,7 @@ $(document).ready( function() {
                     
                     var tag = $("#t"+d.id);
 
-                    $("#tip p").text(formatNumber(hoveredKeywordData.c)+" gemeinsame Einträge"); 
+                    $("#tip p").text(formatNumber(hoveredKeywordData.c)+" gemensamma poster");
                     $("#tip").css({
                                 "top": 
                                     tag.offset().top
@@ -778,13 +778,13 @@ $(document).ready( function() {
                                     .append("span")
                                     .attr("class", "activeSmall")
                                     .attr("id", "value")
-                                    .text( function (d) { return "Stichwort: "+keywordCount[i].value+" hat "})
+                                    .text( function (d) { return "Nyckelord: "+keywordCount[i].value+" hat "})
                                     .append("a")
-                                    .attr("href", "https://www.deutsche-digitale-bibliothek.de/searchresults?query=*&rows=20&offset=0&sort=RELEVANCE&viewType=list&category=Kultur&clearFilter=true&facetValues%5B%5D=keywords_fct%3D"+keywordCount[i].value)
+                                    .attr("href", "http://www.kringla.nu/kringla/sok?text="+keywordCount[i].value)
                                     .on("click", function (d, i) { } )
                                     .attr("target", "_blank")
                                     .attr("class", "activeLink")
-                                    .text(function (d){return formatNumber(keywordCount[i].c)+" Einträge";});
+                                    .text(function (d){return formatNumber(keywordCount[i].c)+" poster";});
 
                         }
                         }
@@ -816,7 +816,7 @@ $(document).ready( function() {
                         d3.select(".subheader .container h1")
                             .append("span")
                             .attr("class", "blankHL")
-                            .text("Stichworte");
+                            .text("Nyckelord");
 
                     }
                     else {

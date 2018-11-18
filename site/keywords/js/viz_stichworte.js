@@ -529,7 +529,7 @@ function generateOverlay () {
             { x: 920, y: 200, text: "Frequently co-occurring keywords are highlighted red", r: 20},
             { x: 240, y: 445, text: "Infrequently co-occurring keywords are highlighted light grey", r: 15},
             { x: 670, y: 310, text: "Terms not co-occourring with selected keyword are greyed out", r: 10},
-            { x: 270, y: 35, text: "Link to the www.deutsche-digitale-bibliothek.de", r: 20}
+            { x: 270, y: 35, text: "Link to kringla.nu", r: 20}
         ];
 
 //wieder magie mit mathe
@@ -781,7 +781,7 @@ $(document).ready( function() {
                                     .attr("id", "value")
                                     .text( function (d) { return "Keyword: "+keywordCount[i].value+" has "})
                                     .append("a")
-                                    .attr("href", "https://www.deutsche-digitale-bibliothek.de/searchresults?query=*&rows=20&offset=0&sort=RELEVANCE&viewType=list&category=Kultur&clearFilter=true&facetValues%5B%5D=keywords_fct%3D"+keywordCount[i].value)
+                                    .attr("href", "http://www.kringla.nu/kringla/sok?text="+keywordCount[i].value)
                                     .on("click", function (d, i) { } )
                                     .attr("target", "_blank")
                                     .attr("class", "activeLink")
