@@ -333,7 +333,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
       .attr("class", "group-label")
      // .attr("x", -6)
       .attr("text-anchor", "start")
-      .text(function(d) { return dataSector.get(d.key,"name"); })
+      .text(function(d) { return dataSector.get(d.key,"nameEn"); })
       .attr('transform', function(d, i){ 
         return "translate("+ (yScaleTotal(d3.sum(d.values, function(d){ return d.count; })) + 5) + "," + (lineheight / 2 +3) +")";
       })
