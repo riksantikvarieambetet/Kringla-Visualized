@@ -1,6 +1,0 @@
-"id","value","name"
-1,"","Annan"
-2,"filter=mediaType%3Dimage/jpeg&filter=mediaType%3Dhttp%3A%2F%2Fkulturarvsdata.se%2Fresurser%2Fmediatype%23image%2Fjpeg","Bild"
-3,"filter=mediaType%3Dtext/plain&filter=mediaType%3Dtext/html&filter=mediaType%3Dapplication/pdf&filter=mediaType%3Dhttp%3A%2F%2Fkulturarvsdata.se%2Fresurser%2Fmediatype%23text%2Fplain","Text"
-4,"filter=mediaType%3Daudio/mpeg3","Ljud"
-5,"","Video"

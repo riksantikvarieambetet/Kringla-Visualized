@@ -94,14 +94,14 @@ var svg = d3.select("#chart")
     .classed("chart", true);
 
 queue()
-  .defer(d3.csv, 'data/time_itemtype.csv')
-  .defer(d3.csv, 'data/time_fct.csv')
-  .defer(d3.csv, 'data/itemtype_fct.csv')
-  .defer(d3.csv, 'data/time_itemtype_type.csv')
-  .defer(d3.csv, 'data/type_fct.csv')
-  .defer(d3.csv, 'data/time_keywordsNames.csv')
-  .defer(d3.csv, 'data/time_place.csv')
-  .defer(d3.csv, 'data/time_affiliate.csv')
+  .defer(d3.csv, '../timeline/data/time_itemtype.csv')
+  .defer(d3.csv, '../timeline/data/time_fct.csv')
+  .defer(d3.csv, '../timeline/data/itemtype_fct_en.csv')
+  .defer(d3.csv, '../timeline/data/time_itemtype_type.csv')
+  .defer(d3.csv, '../timeline/data/type_fct_en.csv')
+  .defer(d3.csv, '../timeline/data/time_keywordsNames_en.csv')
+  .defer(d3.csv, '../timeline/data/time_place_en.csv')
+  .defer(d3.csv, '../timeline/data/time_affiliate_en.csv')
   .await(dataLoaded);
 
 Array.prototype.getVal = function(id){
@@ -115,7 +115,6 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
 
   dataTime.forEach(function(d) {
     d.id = +d.id;
-    d.sort = +d.value.split("_")[1];
   });
   dataSector.forEach(function(d) {
     d.id = +d.id;
@@ -167,41 +166,9 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
     d.count = +d.count;
   });
 
-  dataTime =  dataTime.filter(function(d){
-    return !(d.name.indexOf("Jahrhundert") > -1 && d.sort > 61000)
-      && !(d.name.indexOf("Jahrtausend") > -1)
-      && d.name != "Historische Zeiträume"
-      && d.name != "Geologische Zeiträume"
-      && d.name != "Präkambrium"
-      && d.name != "Urgeschichtliche Zeiträume"
-      && d.sort > 18000;
-  })
-
-  dataTime.forEach(function(d){
-    if(d.name.indexOf("v. Chr.") > -1){
-      d.name = "-"+d.name.replace(" v. Chr.","");
-    }
-    if(d.name.indexOf("Jahrhundert") > -1){
-      var s = d.name.split(". Jahrhundert");
-      d.name = s[0]+"00";
-    }
-    if(d.name.indexOf("bis") > -1){
-      d.oldName = d.name;
-      var s = d.name.split(" bis ");
-      var diff = s[1]-s[0]+1;
-      //d.name = s[0]-1 + " " + diff;
-      d.name = s[0]-1;
-    }
-    // jahrhunderte nach zeitpunkte unter 1000 um 0 zu bekommen
-    if(!d.oldName && d.name > 0 && d.name <=1000){
-      d.name -= 100;
-    }
-    d.name = +d.name;
-  })
-
   dataTime.push({ id: 1000, name: 2020, sort: 70000, value: "time_70000" });
 
-  dataTime.sort(function(a,b){ return d3.ascending(a.sort, b.sort); })
+  dataTime.sort(function(a,b){ return d3.ascending(a.id, b.id); })
 
   dataTimeValues = dataTime.map(function(d){ return d.id; });
 
