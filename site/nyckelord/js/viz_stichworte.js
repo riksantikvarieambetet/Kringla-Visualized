@@ -597,7 +597,7 @@ $(document).ready( function() {
         $("#tip").css("opacity", 0);
 
         // lade die CSV-datei und pack sie in csvDATA
-        d3.csv("./data/data-tags.csv")
+        d3.csv("../keywords/data/data-tags.csv")
             .row(function(d) { return d; })
             .get(function(error, rows) {
                 csvData = rows;
