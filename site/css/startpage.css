@@ -121,6 +121,7 @@
     width: calc(33.3333% - 40px);
     margin-right: 20px;
     line-height: 1.35em;
+    margin-top: -5px;
 }
 
 .main .container div:nth-child(4) {
