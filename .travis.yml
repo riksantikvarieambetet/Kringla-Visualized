@@ -1,3 +1,10 @@
+language: python
+python:
+  - "3.6"
+
+script:
+- echo "Deploying"
+
 deploy:
   provider: pages
   skip-cleanup: true
