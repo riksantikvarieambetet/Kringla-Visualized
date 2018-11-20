@@ -47,45 +47,6 @@
     font-size: 14px;
 }
 
-.footer {
-    color: #6A6A6A;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    line-height: 1.3em;
-}
-
-.footer .container {
-    padding: 20px 0 40px;
-}
-
-.footer a {
-    color: #C94A18;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-}
-
-.footer a:first-child img {
-    opacity: 0.8;
-}
-
-.footer a:first-child:hover img {
-    opacity: 1;
-}
-
-.footer img {
-    margin: 20px;
-    margin-left: 0px;
-    border: 0;
-    opacity: 0.85;
-}
-
-.footer img:hover {
-    opacity: 1;
-}
-
 .subheader h1 {
     font-size: 27px;
     line-height: 1.5em;
