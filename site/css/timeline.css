@@ -173,7 +173,7 @@ p {
     width: 1200px;
     /* float: left; */
     opacity: 0;
-    height: 130px;
+    display: inline-block;
 }
 
 #wordArea .group {
