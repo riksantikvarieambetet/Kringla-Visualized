@@ -98,7 +98,7 @@
     height: 350px;
     min-width: 1240px;
     background: #DADADA;
-    /*background: #DADADA url('../index/icons.png') center no-repeat;*/
+    background: #DADADA url('../index/icons.png') center no-repeat;
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
