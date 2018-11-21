@@ -27,6 +27,9 @@ for index in raw['result']['institution']:
 
     r2 = requests.get(get_org_time_counts_url(org_short), headers=headers)
     raw2 = r2.json()
+    if (raw2['result']['numberOfTerms'] == 0):
+        r2 = requests.get(get_org_time_counts_url(org_full), headers=headers)
+        raw2 = r2.json()
 
     for fct in time_fcts:
         fct_count = 0
