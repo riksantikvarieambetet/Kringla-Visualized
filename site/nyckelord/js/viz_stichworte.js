@@ -778,7 +778,7 @@ $(document).ready( function() {
                                     .append("span")
                                     .attr("class", "activeSmall")
                                     .attr("id", "value")
-                                    .text( function (d) { return "Nyckelord: "+keywordCount[i].value+" hat "})
+                                    .text( function (d) { return "Nyckelord: "+keywordCount[i].value+" har "})
                                     .append("a")
                                     .attr("href", "http://www.kringla.nu/kringla/sok?text="+keywordCount[i].value)
                                     .on("click", function (d, i) { } )

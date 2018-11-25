@@ -126,7 +126,7 @@ function drawPie(dataSet, selectString, outerRadius, cityName) {
         var tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
-            .html(function(d) { return '<h3>'+d.data.legendLabel+'</h3><p>'+formatNumber(d.data.magnitude)+' Einträge</p>'; } );
+            .html(function(d) { return '<h3>'+d.data.legendLabel+'</h3><p>'+formatNumber(d.data.magnitude)+' poster</p>'; } );
 
                 
     function refillArc() {
