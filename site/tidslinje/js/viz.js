@@ -1178,7 +1178,7 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
         r: 10
       },
       {
-        x: 810,
+        x: 910,
         y: 60,
         text: "Linjär skala",
         r: 10
