@@ -6,19 +6,19 @@ timeId,name,affiliateId,count,nameEn
 76,Värmlands museum,s-vlm,1
 77,Värmlands museum,s-vlm,7
 78,Värmlands museum,s-vlm,13
-79,Värmlands museum,s-vlm,20
-80,Värmlands museum,s-vlm,19
+79,Värmlands museum,s-vlm,21
+80,Värmlands museum,s-vlm,21
 81,Värmlands museum,s-vlm,19
-82,Värmlands museum,s-vlm,35
-83,Värmlands museum,s-vlm,56
-84,Värmlands museum,s-vlm,266
+82,Värmlands museum,s-vlm,37
+83,Värmlands museum,s-vlm,57
+84,Värmlands museum,s-vlm,268
 85,Värmlands museum,s-vlm,198
 86,Värmlands museum,s-vlm,247
 87,Värmlands museum,s-vlm,1
 88,Värmlands museum,s-vlm,7
 89,Värmlands museum,s-vlm,2381
 90,Värmlands museum,s-vlm,7
-91,Värmlands museum,s-vlm,2726
+91,Värmlands museum,s-vlm,53
 49,Karlsborgs fästningsmuseum,kbg,1
 50,Karlsborgs fästningsmuseum,kbg,1
 58,Karlsborgs fästningsmuseum,kbg,1
@@ -33,16 +33,16 @@ timeId,name,affiliateId,count,nameEn
 79,Karlsborgs fästningsmuseum,kbg,510
 80,Karlsborgs fästningsmuseum,kbg,1068
 81,Karlsborgs fästningsmuseum,kbg,1826
-82,Karlsborgs fästningsmuseum,kbg,1564
-83,Karlsborgs fästningsmuseum,kbg,3286
-84,Karlsborgs fästningsmuseum,kbg,2232
+82,Karlsborgs fästningsmuseum,kbg,1563
+83,Karlsborgs fästningsmuseum,kbg,3281
+84,Karlsborgs fästningsmuseum,kbg,2233
 85,Karlsborgs fästningsmuseum,kbg,2906
 86,Karlsborgs fästningsmuseum,kbg,2188
 87,Karlsborgs fästningsmuseum,kbg,1610
-88,Karlsborgs fästningsmuseum,kbg,2261
-89,Karlsborgs fästningsmuseum,kbg,1923
-90,Karlsborgs fästningsmuseum,kbg,1518
-91,Karlsborgs fästningsmuseum,kbg,9627
+88,Karlsborgs fästningsmuseum,kbg,2260
+89,Karlsborgs fästningsmuseum,kbg,1930
+90,Karlsborgs fästningsmuseum,kbg,1522
+91,Karlsborgs fästningsmuseum,kbg,3035
 58,Enköpings museum,enk,1
 69,Enköpings museum,enk,2
 70,Enköpings museum,enk,5
@@ -53,7 +53,7 @@ timeId,name,affiliateId,count,nameEn
 75,Enköpings museum,enk,8
 76,Enköpings museum,enk,58
 77,Enköpings museum,enk,36
-78,Enköpings museum,enk,78
+78,Enköpings museum,enk,80
 79,Enköpings museum,enk,95
 80,Enköpings museum,enk,286
 81,Enköpings museum,enk,291
@@ -66,25 +66,22 @@ timeId,name,affiliateId,count,nameEn
 88,Enköpings museum,enk,471
 89,Enköpings museum,enk,30
 90,Enköpings museum,enk,61
-91,Enköpings museum,enk,486
+91,Enköpings museum,enk,131
 48,Medelhavsmuseet,smvk-mm,3
-49,Medelhavsmuseet,smvk-mm,1
-68,Medelhavsmuseet,smvk-mm,2
-69,Medelhavsmuseet,smvk-mm,2
 78,Medelhavsmuseet,smvk-mm,1
 79,Medelhavsmuseet,smvk-mm,2
-80,Medelhavsmuseet,smvk-mm,25
-81,Medelhavsmuseet,smvk-mm,4
-82,Medelhavsmuseet,smvk-mm,1341
-83,Medelhavsmuseet,smvk-mm,1547
-84,Medelhavsmuseet,smvk-mm,10
-85,Medelhavsmuseet,smvk-mm,100
-86,Medelhavsmuseet,smvk-mm,545
-87,Medelhavsmuseet,smvk-mm,700
-88,Medelhavsmuseet,smvk-mm,365
-89,Medelhavsmuseet,smvk-mm,1665
+80,Medelhavsmuseet,smvk-mm,24
+81,Medelhavsmuseet,smvk-mm,3
+82,Medelhavsmuseet,smvk-mm,1340
+83,Medelhavsmuseet,smvk-mm,1546
+84,Medelhavsmuseet,smvk-mm,9
+85,Medelhavsmuseet,smvk-mm,99
+86,Medelhavsmuseet,smvk-mm,544
+87,Medelhavsmuseet,smvk-mm,699
+88,Medelhavsmuseet,smvk-mm,364
+89,Medelhavsmuseet,smvk-mm,1664
 90,Medelhavsmuseet,smvk-mm,14357
-91,Medelhavsmuseet,smvk-mm,8184
+91,Medelhavsmuseet,smvk-mm,2886
 0,Statens historiska museum,shm,95425
 2,Statens historiska museum,shm,503
 5,Statens historiska museum,shm,2142
@@ -103,7 +100,7 @@ timeId,name,affiliateId,count,nameEn
 49,Statens historiska museum,shm,21
 52,Statens historiska museum,shm,25104
 53,Statens historiska museum,shm,9996
-55,Statens historiska museum,shm,2
+55,Statens historiska museum,shm,3
 56,Statens historiska museum,shm,132605
 57,Statens historiska museum,shm,19
 59,Statens historiska museum,shm,1
@@ -121,12 +118,12 @@ timeId,name,affiliateId,count,nameEn
 71,Statens historiska museum,shm,12
 72,Statens historiska museum,shm,3796
 73,Statens historiska museum,shm,1
-74,Statens historiska museum,shm,10
+74,Statens historiska museum,shm,4
 75,Statens historiska museum,shm,2
 76,Statens historiska museum,shm,1123
 77,Statens historiska museum,shm,1273
-78,Statens historiska museum,shm,19813
-79,Statens historiska museum,shm,12368
+78,Statens historiska museum,shm,19798
+79,Statens historiska museum,shm,12353
 80,Statens historiska museum,shm,10751
 81,Statens historiska museum,shm,14882
 82,Statens historiska museum,shm,24778
@@ -138,7 +135,7 @@ timeId,name,affiliateId,count,nameEn
 88,Statens historiska museum,shm,92833
 89,Statens historiska museum,shm,253606
 90,Statens historiska museum,shm,349688
-91,Statens historiska museum,shm,393018
+91,Statens historiska museum,shm,117933
 68,Hallwylska museet,hallwylska museet,11
 69,Hallwylska museet,hallwylska museet,7
 70,Hallwylska museet,hallwylska museet,136
@@ -159,7 +156,6 @@ timeId,name,affiliateId,count,nameEn
 85,Hallwylska museet,hallwylska museet,1
 86,Hallwylska museet,hallwylska museet,3
 89,Hallwylska museet,hallwylska museet,1
-91,Hallwylska museet,hallwylska museet,120
 85,Aeroseum,aero,1
 90,Aeroseum,aero,1
 91,Aeroseum,aero,1
@@ -176,9 +172,7 @@ timeId,name,affiliateId,count,nameEn
 85,Österlens museum,osmu,2
 86,Österlens museum,osmu,1
 87,Österlens museum,osmu,1
-91,Österlens museum,osmu,17
 54,Östasiatiska museet,smvk-om,2
-57,Östasiatiska museet,smvk-om,1
 59,Östasiatiska museet,smvk-om,1
 60,Östasiatiska museet,smvk-om,3
 66,Östasiatiska museet,smvk-om,2
@@ -196,7 +190,7 @@ timeId,name,affiliateId,count,nameEn
 80,Östasiatiska museet,smvk-om,7
 81,Östasiatiska museet,smvk-om,175
 82,Östasiatiska museet,smvk-om,1694
-83,Östasiatiska museet,smvk-om,1343
+83,Östasiatiska museet,smvk-om,1344
 84,Östasiatiska museet,smvk-om,129
 85,Östasiatiska museet,smvk-om,33
 86,Östasiatiska museet,smvk-om,297
@@ -204,7 +198,7 @@ timeId,name,affiliateId,count,nameEn
 88,Östasiatiska museet,smvk-om,117
 89,Östasiatiska museet,smvk-om,103
 90,Östasiatiska museet,smvk-om,608
-91,Östasiatiska museet,smvk-om,3043
+91,Östasiatiska museet,smvk-om,2244
 69,Marinmuseum,smm-mm,1
 71,Marinmuseum,smm-mm,15
 72,Marinmuseum,smm-mm,7
@@ -216,19 +210,19 @@ timeId,name,affiliateId,count,nameEn
 78,Marinmuseum,smm-mm,98
 79,Marinmuseum,smm-mm,441
 80,Marinmuseum,smm-mm,276
-81,Marinmuseum,smm-mm,278
+81,Marinmuseum,smm-mm,279
 82,Marinmuseum,smm-mm,719
 83,Marinmuseum,smm-mm,1560
 84,Marinmuseum,smm-mm,2554
 85,Marinmuseum,smm-mm,10236
 86,Marinmuseum,smm-mm,6845
-87,Marinmuseum,smm-mm,321
-88,Marinmuseum,smm-mm,812
+87,Marinmuseum,smm-mm,322
+88,Marinmuseum,smm-mm,815
 89,Marinmuseum,smm-mm,496
 90,Marinmuseum,smm-mm,1864
-91,Marinmuseum,smm-mm,10645
-49,Bohusläns museum,bhm,2
-58,Bohusläns museum,bhm,2
+91,Marinmuseum,smm-mm,1959
+49,Bohusläns museum,bhm,1
+58,Bohusläns museum,bhm,1
 59,Bohusläns museum,bhm,2
 60,Bohusläns museum,bhm,3
 62,Bohusläns museum,bhm,3
@@ -241,32 +235,32 @@ timeId,name,affiliateId,count,nameEn
 71,Bohusläns museum,bhm,53
 72,Bohusläns museum,bhm,106
 73,Bohusläns museum,bhm,74
-74,Bohusläns museum,bhm,265
+74,Bohusläns museum,bhm,267
 75,Bohusläns museum,bhm,118
-76,Bohusläns museum,bhm,573
+76,Bohusläns museum,bhm,576
 77,Bohusläns museum,bhm,215
-78,Bohusläns museum,bhm,2247
-79,Bohusläns museum,bhm,4622
-80,Bohusläns museum,bhm,8805
-81,Bohusläns museum,bhm,15954
+78,Bohusläns museum,bhm,2261
+79,Bohusläns museum,bhm,4623
+80,Bohusläns museum,bhm,8807
+81,Bohusläns museum,bhm,15955
 82,Bohusläns museum,bhm,17650
-83,Bohusläns museum,bhm,12416
-84,Bohusläns museum,bhm,14811
-85,Bohusläns museum,bhm,20690
-86,Bohusläns museum,bhm,13517
-87,Bohusläns museum,bhm,35237
-88,Bohusläns museum,bhm,58127
-89,Bohusläns museum,bhm,26084
+83,Bohusläns museum,bhm,12422
+84,Bohusläns museum,bhm,14814
+85,Bohusläns museum,bhm,20722
+86,Bohusläns museum,bhm,13518
+87,Bohusläns museum,bhm,35238
+88,Bohusläns museum,bhm,58134
+89,Bohusläns museum,bhm,26085
 90,Bohusläns museum,bhm,4595
-91,Bohusläns museum,bhm,86744
+91,Bohusläns museum,bhm,4047
 48,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,3
-49,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,3
+49,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,1
 57,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,1
-58,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,3
-59,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,2
+58,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,1
+59,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,1
 61,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,1
-62,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,5
-63,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,7
+62,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,4
+63,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,6
 64,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,3
 65,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,4
 66,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,11
@@ -294,7 +288,7 @@ timeId,name,affiliateId,count,nameEn
 88,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,110
 89,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,230
 90,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,233
-91,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,675
+91,Livrustkammaren och Skoklosters slott med Stiftelsen Hallwylska museet,lsh,305
 64,Vänermuseet,vm,1
 68,Vänermuseet,vm,2
 69,Vänermuseet,vm,8
@@ -319,45 +313,43 @@ timeId,name,affiliateId,count,nameEn
 88,Vänermuseet,vm,5673
 89,Vänermuseet,vm,3967
 90,Vänermuseet,vm,303
-91,Vänermuseet,vm,3268
+91,Vänermuseet,vm,427
 48,Stiftelsen Nordiska museet,nomu,3
-49,Stiftelsen Nordiska museet,nomu,5
 53,Stiftelsen Nordiska museet,nomu,1
-57,Stiftelsen Nordiska museet,nomu,2
-58,Stiftelsen Nordiska museet,nomu,9
-59,Stiftelsen Nordiska museet,nomu,4
-60,Stiftelsen Nordiska museet,nomu,8
-61,Stiftelsen Nordiska museet,nomu,3
-62,Stiftelsen Nordiska museet,nomu,8
-63,Stiftelsen Nordiska museet,nomu,13
-64,Stiftelsen Nordiska museet,nomu,16
-65,Stiftelsen Nordiska museet,nomu,24
-66,Stiftelsen Nordiska museet,nomu,59
-67,Stiftelsen Nordiska museet,nomu,41
-68,Stiftelsen Nordiska museet,nomu,283
-69,Stiftelsen Nordiska museet,nomu,444
-70,Stiftelsen Nordiska museet,nomu,1792
-71,Stiftelsen Nordiska museet,nomu,2422
-72,Stiftelsen Nordiska museet,nomu,3480
+57,Stiftelsen Nordiska museet,nomu,1
+58,Stiftelsen Nordiska museet,nomu,6
+59,Stiftelsen Nordiska museet,nomu,1
+60,Stiftelsen Nordiska museet,nomu,5
+62,Stiftelsen Nordiska museet,nomu,5
+63,Stiftelsen Nordiska museet,nomu,10
+64,Stiftelsen Nordiska museet,nomu,13
+65,Stiftelsen Nordiska museet,nomu,21
+66,Stiftelsen Nordiska museet,nomu,56
+67,Stiftelsen Nordiska museet,nomu,38
+68,Stiftelsen Nordiska museet,nomu,280
+69,Stiftelsen Nordiska museet,nomu,441
+70,Stiftelsen Nordiska museet,nomu,1791
+71,Stiftelsen Nordiska museet,nomu,2420
+72,Stiftelsen Nordiska museet,nomu,3477
 73,Stiftelsen Nordiska museet,nomu,4447
-74,Stiftelsen Nordiska museet,nomu,6729
-75,Stiftelsen Nordiska museet,nomu,7496
+74,Stiftelsen Nordiska museet,nomu,6737
+75,Stiftelsen Nordiska museet,nomu,7506
 76,Stiftelsen Nordiska museet,nomu,12605
-77,Stiftelsen Nordiska museet,nomu,12312
-78,Stiftelsen Nordiska museet,nomu,21088
+77,Stiftelsen Nordiska museet,nomu,12311
+78,Stiftelsen Nordiska museet,nomu,21087
 79,Stiftelsen Nordiska museet,nomu,100671
-80,Stiftelsen Nordiska museet,nomu,35755
-81,Stiftelsen Nordiska museet,nomu,26594
+80,Stiftelsen Nordiska museet,nomu,35762
+81,Stiftelsen Nordiska museet,nomu,26593
 82,Stiftelsen Nordiska museet,nomu,55983
-83,Stiftelsen Nordiska museet,nomu,55049
-84,Stiftelsen Nordiska museet,nomu,30004
-85,Stiftelsen Nordiska museet,nomu,31949
-86,Stiftelsen Nordiska museet,nomu,31893
-87,Stiftelsen Nordiska museet,nomu,28768
-88,Stiftelsen Nordiska museet,nomu,9721
-89,Stiftelsen Nordiska museet,nomu,11580
+83,Stiftelsen Nordiska museet,nomu,55048
+84,Stiftelsen Nordiska museet,nomu,30015
+85,Stiftelsen Nordiska museet,nomu,31957
+86,Stiftelsen Nordiska museet,nomu,31910
+87,Stiftelsen Nordiska museet,nomu,28780
+88,Stiftelsen Nordiska museet,nomu,9726
+89,Stiftelsen Nordiska museet,nomu,11583
 90,Stiftelsen Nordiska museet,nomu,5539
-91,Stiftelsen Nordiska museet,nomu,89533
+91,Stiftelsen Nordiska museet,nomu,3150
 70,Jönköpings läns museum,jm,2
 72,Jönköpings läns museum,jm,12
 73,Jönköpings läns museum,jm,1
@@ -365,20 +357,20 @@ timeId,name,affiliateId,count,nameEn
 75,Jönköpings läns museum,jm,6
 76,Jönköpings läns museum,jm,24
 77,Jönköpings läns museum,jm,12
-78,Jönköpings läns museum,jm,124
-79,Jönköpings läns museum,jm,103
-80,Jönköpings läns museum,jm,326
-81,Jönköpings läns museum,jm,200
-82,Jönköpings läns museum,jm,420
-83,Jönköpings läns museum,jm,588
-84,Jönköpings läns museum,jm,539
-85,Jönköpings läns museum,jm,1053
-86,Jönköpings läns museum,jm,987
-87,Jönköpings läns museum,jm,458
-88,Jönköpings läns museum,jm,958
-89,Jönköpings läns museum,jm,372
-90,Jönköpings läns museum,jm,2942
-91,Jönköpings läns museum,jm,5188
+78,Jönköpings läns museum,jm,125
+79,Jönköpings läns museum,jm,102
+80,Jönköpings läns museum,jm,330
+81,Jönköpings läns museum,jm,202
+82,Jönköpings läns museum,jm,423
+83,Jönköpings läns museum,jm,603
+84,Jönköpings läns museum,jm,647
+85,Jönköpings läns museum,jm,1063
+86,Jönköpings läns museum,jm,999
+87,Jönköpings läns museum,jm,476
+88,Jönköpings läns museum,jm,967
+89,Jönköpings läns museum,jm,387
+90,Jönköpings läns museum,jm,2943
+91,Jönköpings läns museum,jm,3251
 71,Arkitektur- och designcentrum,arkm,1
 72,Arkitektur- och designcentrum,arkm,1
 73,Arkitektur- och designcentrum,arkm,2
@@ -399,35 +391,34 @@ timeId,name,affiliateId,count,nameEn
 88,Arkitektur- och designcentrum,arkm,3349
 89,Arkitektur- och designcentrum,arkm,1359
 90,Arkitektur- och designcentrum,arkm,347
-91,Arkitektur- och designcentrum,arkm,37467
+91,Arkitektur- och designcentrum,arkm,36
 48,Blekinge museum,blm,26
 50,Blekinge museum,blm,1
-57,Blekinge museum,blm,7
 63,Blekinge museum,blm,1
 67,Blekinge museum,blm,1
 68,Blekinge museum,blm,4
 70,Blekinge museum,blm,5
 71,Blekinge museum,blm,7
-72,Blekinge museum,blm,31
+72,Blekinge museum,blm,33
 73,Blekinge museum,blm,9
 74,Blekinge museum,blm,30
 75,Blekinge museum,blm,44
 76,Blekinge museum,blm,78
-77,Blekinge museum,blm,47
-78,Blekinge museum,blm,303
-79,Blekinge museum,blm,613
-80,Blekinge museum,blm,840
-81,Blekinge museum,blm,358
-82,Blekinge museum,blm,341
-83,Blekinge museum,blm,870
-84,Blekinge museum,blm,1354
-85,Blekinge museum,blm,2284
-86,Blekinge museum,blm,2283
-87,Blekinge museum,blm,1659
-88,Blekinge museum,blm,784
-89,Blekinge museum,blm,274
+77,Blekinge museum,blm,48
+78,Blekinge museum,blm,306
+79,Blekinge museum,blm,616
+80,Blekinge museum,blm,844
+81,Blekinge museum,blm,362
+82,Blekinge museum,blm,343
+83,Blekinge museum,blm,872
+84,Blekinge museum,blm,1355
+85,Blekinge museum,blm,2287
+86,Blekinge museum,blm,2288
+87,Blekinge museum,blm,1661
+88,Blekinge museum,blm,785
+89,Blekinge museum,blm,275
 90,Blekinge museum,blm,749
-91,Blekinge museum,blm,4686
+91,Blekinge museum,blm,455
 62,Skoklosters slott,skoklosters slott,1
 67,Skoklosters slott,skoklosters slott,16
 68,Skoklosters slott,skoklosters slott,315
@@ -449,11 +440,10 @@ timeId,name,affiliateId,count,nameEn
 84,Skoklosters slott,skoklosters slott,3
 85,Skoklosters slott,skoklosters slott,26
 86,Skoklosters slott,skoklosters slott,5
-91,Skoklosters slott,skoklosters slott,537
 50,Postmuseum,pm,3
 53,Postmuseum,pm,1
 63,Postmuseum,pm,1
-68,Postmuseum,pm,3
+68,Postmuseum,pm,4
 69,Postmuseum,pm,5
 70,Postmuseum,pm,13
 71,Postmuseum,pm,42
@@ -465,18 +455,18 @@ timeId,name,affiliateId,count,nameEn
 77,Postmuseum,pm,255
 78,Postmuseum,pm,1212
 79,Postmuseum,pm,1349
-80,Postmuseum,pm,1264
-81,Postmuseum,pm,1506
+80,Postmuseum,pm,1265
+81,Postmuseum,pm,1507
 82,Postmuseum,pm,2290
 83,Postmuseum,pm,2970
 84,Postmuseum,pm,2682
-85,Postmuseum,pm,4891
+85,Postmuseum,pm,4892
 86,Postmuseum,pm,10576
 87,Postmuseum,pm,4235
 88,Postmuseum,pm,6184
 89,Postmuseum,pm,2040
 90,Postmuseum,pm,2668
-91,Postmuseum,pm,11505
+91,Postmuseum,pm,354
 63,Tekniska museet,s-tek,1
 67,Tekniska museet,s-tek,2
 68,Tekniska museet,s-tek,2
@@ -489,20 +479,20 @@ timeId,name,affiliateId,count,nameEn
 75,Tekniska museet,s-tek,178
 76,Tekniska museet,s-tek,688
 77,Tekniska museet,s-tek,521
-78,Tekniska museet,s-tek,1729
-79,Tekniska museet,s-tek,4950
-80,Tekniska museet,s-tek,6520
-81,Tekniska museet,s-tek,4124
-82,Tekniska museet,s-tek,10199
-83,Tekniska museet,s-tek,58312
-84,Tekniska museet,s-tek,11315
-85,Tekniska museet,s-tek,4807
-86,Tekniska museet,s-tek,7590
-87,Tekniska museet,s-tek,10861
-88,Tekniska museet,s-tek,4681
-89,Tekniska museet,s-tek,4231
-90,Tekniska museet,s-tek,5304
-91,Tekniska museet,s-tek,33355
+78,Tekniska museet,s-tek,1733
+79,Tekniska museet,s-tek,4968
+80,Tekniska museet,s-tek,6535
+81,Tekniska museet,s-tek,4127
+82,Tekniska museet,s-tek,10222
+83,Tekniska museet,s-tek,59020
+84,Tekniska museet,s-tek,11367
+85,Tekniska museet,s-tek,4810
+86,Tekniska museet,s-tek,7593
+87,Tekniska museet,s-tek,10863
+88,Tekniska museet,s-tek,4684
+89,Tekniska museet,s-tek,4244
+90,Tekniska museet,s-tek,5316
+91,Tekniska museet,s-tek,3052
 58,Hälsinglands Museum,s-hm,1
 62,Hälsinglands Museum,s-hm,3
 63,Hälsinglands Museum,s-hm,2
@@ -525,14 +515,14 @@ timeId,name,affiliateId,count,nameEn
 81,Hälsinglands Museum,s-hm,715
 82,Hälsinglands Museum,s-hm,392
 83,Hälsinglands Museum,s-hm,376
-84,Hälsinglands Museum,s-hm,715
-85,Hälsinglands Museum,s-hm,7448
-86,Hälsinglands Museum,s-hm,6814
-87,Hälsinglands Museum,s-hm,5342
-88,Hälsinglands Museum,s-hm,15147
+84,Hälsinglands Museum,s-hm,717
+85,Hälsinglands Museum,s-hm,7496
+86,Hälsinglands Museum,s-hm,6904
+87,Hälsinglands Museum,s-hm,5490
+88,Hälsinglands Museum,s-hm,15304
 89,Hälsinglands Museum,s-hm,8601
 90,Hälsinglands Museum,s-hm,2320
-91,Hälsinglands Museum,s-hm,16604
+91,Hälsinglands Museum,s-hm,29
 50,Region Skånes medicinhistoriska samlingar,rsms,1
 72,Region Skånes medicinhistoriska samlingar,rsms,1
 73,Region Skånes medicinhistoriska samlingar,rsms,3
@@ -542,24 +532,23 @@ timeId,name,affiliateId,count,nameEn
 77,Region Skånes medicinhistoriska samlingar,rsms,8
 78,Region Skånes medicinhistoriska samlingar,rsms,26
 79,Region Skånes medicinhistoriska samlingar,rsms,100
-80,Region Skånes medicinhistoriska samlingar,rsms,126
-81,Region Skånes medicinhistoriska samlingar,rsms,173
+80,Region Skånes medicinhistoriska samlingar,rsms,125
+81,Region Skånes medicinhistoriska samlingar,rsms,172
 82,Region Skånes medicinhistoriska samlingar,rsms,494
 83,Region Skånes medicinhistoriska samlingar,rsms,243
 84,Region Skånes medicinhistoriska samlingar,rsms,156
-85,Region Skånes medicinhistoriska samlingar,rsms,287
-86,Region Skånes medicinhistoriska samlingar,rsms,873
-87,Region Skånes medicinhistoriska samlingar,rsms,1068
-88,Region Skånes medicinhistoriska samlingar,rsms,2389
-89,Region Skånes medicinhistoriska samlingar,rsms,1139
+85,Region Skånes medicinhistoriska samlingar,rsms,283
+86,Region Skånes medicinhistoriska samlingar,rsms,865
+87,Region Skånes medicinhistoriska samlingar,rsms,1055
+88,Region Skånes medicinhistoriska samlingar,rsms,2383
+89,Region Skånes medicinhistoriska samlingar,rsms,1137
 90,Region Skånes medicinhistoriska samlingar,rsms,627
-91,Region Skånes medicinhistoriska samlingar,rsms,2107
-49,Sörmlands museum,slm,3
+91,Region Skånes medicinhistoriska samlingar,rsms,214
+49,Sörmlands museum,slm,2
 50,Sörmlands museum,slm,2
 53,Sörmlands museum,slm,5
 56,Sörmlands museum,slm,1
 57,Sörmlands museum,slm,2
-58,Sörmlands museum,slm,1
 62,Sörmlands museum,slm,3
 63,Sörmlands museum,slm,2
 64,Sörmlands museum,slm,5
@@ -567,28 +556,28 @@ timeId,name,affiliateId,count,nameEn
 67,Sörmlands museum,slm,4
 68,Sörmlands museum,slm,33
 69,Sörmlands museum,slm,72
-70,Sörmlands museum,slm,206
-71,Sörmlands museum,slm,231
+70,Sörmlands museum,slm,205
+71,Sörmlands museum,slm,232
 72,Sörmlands museum,slm,452
 73,Sörmlands museum,slm,187
 74,Sörmlands museum,slm,473
 75,Sörmlands museum,slm,333
-76,Sörmlands museum,slm,1628
-77,Sörmlands museum,slm,767
-78,Sörmlands museum,slm,2216
-79,Sörmlands museum,slm,3855
-80,Sörmlands museum,slm,5286
-81,Sörmlands museum,slm,2864
-82,Sörmlands museum,slm,4262
-83,Sörmlands museum,slm,4046
-84,Sörmlands museum,slm,11395
-85,Sörmlands museum,slm,5883
-86,Sörmlands museum,slm,5950
-87,Sörmlands museum,slm,5774
-88,Sörmlands museum,slm,7026
-89,Sörmlands museum,slm,2708
+76,Sörmlands museum,slm,1629
+77,Sörmlands museum,slm,768
+78,Sörmlands museum,slm,2217
+79,Sörmlands museum,slm,3862
+80,Sörmlands museum,slm,5290
+81,Sörmlands museum,slm,2884
+82,Sörmlands museum,slm,4266
+83,Sörmlands museum,slm,4094
+84,Sörmlands museum,slm,11405
+85,Sörmlands museum,slm,5910
+86,Sörmlands museum,slm,5956
+87,Sörmlands museum,slm,5775
+88,Sörmlands museum,slm,7025
+89,Sörmlands museum,slm,2721
 90,Sörmlands museum,slm,2178
-91,Sörmlands museum,slm,22822
+91,Sörmlands museum,slm,1396
 49,Miliseum,mili,2
 50,Miliseum,mili,1
 65,Miliseum,mili,1
@@ -601,52 +590,51 @@ timeId,name,affiliateId,count,nameEn
 76,Miliseum,mili,11
 77,Miliseum,mili,10
 78,Miliseum,mili,36
-79,Miliseum,mili,98
-80,Miliseum,mili,215
-81,Miliseum,mili,472
-82,Miliseum,mili,768
-83,Miliseum,mili,1814
-84,Miliseum,mili,2823
-85,Miliseum,mili,1434
-86,Miliseum,mili,1312
-87,Miliseum,mili,645
-88,Miliseum,mili,2554
-89,Miliseum,mili,1437
-90,Miliseum,mili,1113
-91,Miliseum,mili,5465
+79,Miliseum,mili,100
+80,Miliseum,mili,216
+81,Miliseum,mili,478
+82,Miliseum,mili,786
+83,Miliseum,mili,1848
+84,Miliseum,mili,2873
+85,Miliseum,mili,1439
+86,Miliseum,mili,1313
+87,Miliseum,mili,652
+88,Miliseum,mili,2560
+89,Miliseum,mili,1439
+90,Miliseum,mili,1112
+91,Miliseum,mili,768
 90,Västarvet,imvg,2
 91,Västarvet,imvg,29
 85,Hemsö fästning,heo,2
-91,Hemsö fästning,heo,2
 64,Sjöhistoriska museet,smm-sm,1
 66,Sjöhistoriska museet,smm-sm,1
 67,Sjöhistoriska museet,smm-sm,1
 68,Sjöhistoriska museet,smm-sm,2
 69,Sjöhistoriska museet,smm-sm,8
-70,Sjöhistoriska museet,smm-sm,33
+70,Sjöhistoriska museet,smm-sm,34
 71,Sjöhistoriska museet,smm-sm,153
 72,Sjöhistoriska museet,smm-sm,40
 73,Sjöhistoriska museet,smm-sm,32
 74,Sjöhistoriska museet,smm-sm,53
-75,Sjöhistoriska museet,smm-sm,174
-76,Sjöhistoriska museet,smm-sm,167
-77,Sjöhistoriska museet,smm-sm,385
-78,Sjöhistoriska museet,smm-sm,1083
-79,Sjöhistoriska museet,smm-sm,1859
-80,Sjöhistoriska museet,smm-sm,1153
+75,Sjöhistoriska museet,smm-sm,176
+76,Sjöhistoriska museet,smm-sm,168
+77,Sjöhistoriska museet,smm-sm,387
+78,Sjöhistoriska museet,smm-sm,1086
+79,Sjöhistoriska museet,smm-sm,1861
+80,Sjöhistoriska museet,smm-sm,1157
 81,Sjöhistoriska museet,smm-sm,1555
-82,Sjöhistoriska museet,smm-sm,1948
-83,Sjöhistoriska museet,smm-sm,3216
-84,Sjöhistoriska museet,smm-sm,5667
-85,Sjöhistoriska museet,smm-sm,5766
-86,Sjöhistoriska museet,smm-sm,6175
+82,Sjöhistoriska museet,smm-sm,1951
+83,Sjöhistoriska museet,smm-sm,3235
+84,Sjöhistoriska museet,smm-sm,5670
+85,Sjöhistoriska museet,smm-sm,5767
+86,Sjöhistoriska museet,smm-sm,6150
 87,Sjöhistoriska museet,smm-sm,3892
 88,Sjöhistoriska museet,smm-sm,3597
 89,Sjöhistoriska museet,smm-sm,2712
 90,Sjöhistoriska museet,smm-sm,9580
-91,Sjöhistoriska museet,smm-sm,16854
+91,Sjöhistoriska museet,smm-sm,4519
 48,Malmö museer,mm,33
-49,Malmö museer,mm,51
+49,Malmö museer,mm,18
 50,Malmö museer,mm,10
 57,Malmö museer,mm,2
 59,Malmö museer,mm,1
@@ -657,64 +645,64 @@ timeId,name,affiliateId,count,nameEn
 67,Malmö museer,mm,3
 68,Malmö museer,mm,39
 69,Malmö museer,mm,91
-70,Malmö museer,mm,117
-71,Malmö museer,mm,412
-72,Malmö museer,mm,164
-73,Malmö museer,mm,244
-74,Malmö museer,mm,368
-75,Malmö museer,mm,650
-76,Malmö museer,mm,960
-77,Malmö museer,mm,1679
-78,Malmö museer,mm,3076
-79,Malmö museer,mm,15494
-80,Malmö museer,mm,14349
-81,Malmö museer,mm,18129
-82,Malmö museer,mm,16544
-83,Malmö museer,mm,20423
-84,Malmö museer,mm,16687
-85,Malmö museer,mm,10961
-86,Malmö museer,mm,20146
-87,Malmö museer,mm,25558
-88,Malmö museer,mm,13759
-89,Malmö museer,mm,9083
-90,Malmö museer,mm,5524
-91,Malmö museer,mm,45343
+70,Malmö museer,mm,122
+71,Malmö museer,mm,413
+72,Malmö museer,mm,158
+73,Malmö museer,mm,238
+74,Malmö museer,mm,366
+75,Malmö museer,mm,647
+76,Malmö museer,mm,957
+77,Malmö museer,mm,1675
+78,Malmö museer,mm,3072
+79,Malmö museer,mm,15669
+80,Malmö museer,mm,14337
+81,Malmö museer,mm,18108
+82,Malmö museer,mm,16525
+83,Malmö museer,mm,20401
+84,Malmö museer,mm,16666
+85,Malmö museer,mm,11019
+86,Malmö museer,mm,20244
+87,Malmö museer,mm,25537
+88,Malmö museer,mm,13731
+89,Malmö museer,mm,9059
+90,Malmö museer,mm,5513
+91,Malmö museer,mm,2816
 78,Flygvapenmuseum,s-fv,4
 79,Flygvapenmuseum,s-fv,18
 80,Flygvapenmuseum,s-fv,19
 81,Flygvapenmuseum,s-fv,336
 82,Flygvapenmuseum,s-fv,588
 83,Flygvapenmuseum,s-fv,695
-84,Flygvapenmuseum,s-fv,1453
+84,Flygvapenmuseum,s-fv,1525
 85,Flygvapenmuseum,s-fv,380
 86,Flygvapenmuseum,s-fv,235
 87,Flygvapenmuseum,s-fv,588
-88,Flygvapenmuseum,s-fv,1295
+88,Flygvapenmuseum,s-fv,1296
 89,Flygvapenmuseum,s-fv,949
-90,Flygvapenmuseum,s-fv,940
-91,Flygvapenmuseum,s-fv,3053
+90,Flygvapenmuseum,s-fv,947
+91,Flygvapenmuseum,s-fv,548
 70,Östergötlands museum,s-om,1
-71,Östergötlands museum,s-om,6
+71,Östergötlands museum,s-om,7
 72,Östergötlands museum,s-om,2
 73,Östergötlands museum,s-om,13
-74,Östergötlands museum,s-om,19
-75,Östergötlands museum,s-om,24
+74,Östergötlands museum,s-om,21
+75,Östergötlands museum,s-om,25
 76,Östergötlands museum,s-om,14
 77,Östergötlands museum,s-om,10
-78,Östergötlands museum,s-om,32
-79,Östergötlands museum,s-om,171
-80,Östergötlands museum,s-om,198
-81,Östergötlands museum,s-om,205
-82,Östergötlands museum,s-om,604
-83,Östergötlands museum,s-om,299
-84,Östergötlands museum,s-om,208
-85,Östergötlands museum,s-om,628
-86,Östergötlands museum,s-om,116
+78,Östergötlands museum,s-om,34
+79,Östergötlands museum,s-om,175
+80,Östergötlands museum,s-om,207
+81,Östergötlands museum,s-om,216
+82,Östergötlands museum,s-om,617
+83,Östergötlands museum,s-om,317
+84,Östergötlands museum,s-om,229
+85,Östergötlands museum,s-om,667
+86,Östergötlands museum,s-om,144
 87,Östergötlands museum,s-om,117
 88,Östergötlands museum,s-om,52
-89,Östergötlands museum,s-om,48
+89,Östergötlands museum,s-om,49
 90,Östergötlands museum,s-om,88
-91,Östergötlands museum,s-om,766
+91,Östergötlands museum,s-om,39
 64,Livrustkammaren,livrustkammaren,1
 67,Livrustkammaren,livrustkammaren,1
 68,Livrustkammaren,livrustkammaren,36
@@ -740,25 +728,25 @@ timeId,name,affiliateId,count,nameEn
 88,Livrustkammaren,livrustkammaren,21
 89,Livrustkammaren,livrustkammaren,5
 90,Livrustkammaren,livrustkammaren,16
-91,Livrustkammaren,livrustkammaren,352
 69,Vasamuseet,smm-vm,1
 71,Vasamuseet,smm-vm,1
 78,Vasamuseet,smm-vm,1
 80,Vasamuseet,smm-vm,7
 85,Vasamuseet,smm-vm,487
-86,Vasamuseet,smm-vm,10450
+86,Vasamuseet,smm-vm,10452
 87,Vasamuseet,smm-vm,27
 88,Vasamuseet,smm-vm,17
 89,Vasamuseet,smm-vm,19
 90,Vasamuseet,smm-vm,1290
-91,Vasamuseet,smm-vm,2457
+91,Vasamuseet,smm-vm,1207
 48,Etnografiska museet,smvk-em,8
-49,Etnografiska museet,smvk-em,15
+49,Etnografiska museet,smvk-em,7
 54,Etnografiska museet,smvk-em,1
+55,Etnografiska museet,smvk-em,73
 57,Etnografiska museet,smvk-em,69
 58,Etnografiska museet,smvk-em,3
 59,Etnografiska museet,smvk-em,2
-60,Etnografiska museet,smvk-em,100
+60,Etnografiska museet,smvk-em,101
 61,Etnografiska museet,smvk-em,1
 62,Etnografiska museet,smvk-em,1
 63,Etnografiska museet,smvk-em,1
@@ -770,26 +758,26 @@ timeId,name,affiliateId,count,nameEn
 69,Etnografiska museet,smvk-em,29
 70,Etnografiska museet,smvk-em,23
 71,Etnografiska museet,smvk-em,29
-72,Etnografiska museet,smvk-em,208
+72,Etnografiska museet,smvk-em,209
 73,Etnografiska museet,smvk-em,28
 74,Etnografiska museet,smvk-em,34
-75,Etnografiska museet,smvk-em,74
+75,Etnografiska museet,smvk-em,75
 76,Etnografiska museet,smvk-em,134
 77,Etnografiska museet,smvk-em,262
-78,Etnografiska museet,smvk-em,585
-79,Etnografiska museet,smvk-em,17219
-80,Etnografiska museet,smvk-em,44987
-81,Etnografiska museet,smvk-em,36273
-82,Etnografiska museet,smvk-em,13006
-83,Etnografiska museet,smvk-em,38568
+78,Etnografiska museet,smvk-em,588
+79,Etnografiska museet,smvk-em,17234
+80,Etnografiska museet,smvk-em,44980
+81,Etnografiska museet,smvk-em,36266
+82,Etnografiska museet,smvk-em,12999
+83,Etnografiska museet,smvk-em,38562
 84,Etnografiska museet,smvk-em,7622
-85,Etnografiska museet,smvk-em,15111
-86,Etnografiska museet,smvk-em,5586
-87,Etnografiska museet,smvk-em,2197
-88,Etnografiska museet,smvk-em,14218
-89,Etnografiska museet,smvk-em,2609
-90,Etnografiska museet,smvk-em,5085
-91,Etnografiska museet,smvk-em,31397
+85,Etnografiska museet,smvk-em,15096
+86,Etnografiska museet,smvk-em,5580
+87,Etnografiska museet,smvk-em,2212
+88,Etnografiska museet,smvk-em,14208
+89,Etnografiska museet,smvk-em,2602
+90,Etnografiska museet,smvk-em,5087
+91,Etnografiska museet,smvk-em,12342
 49,Kulturen,kulturen,2
 50,Kulturen,kulturen,1
 52,Kulturen,kulturen,1
@@ -816,16 +804,16 @@ timeId,name,affiliateId,count,nameEn
 79,Kulturen,kulturen,12605
 80,Kulturen,kulturen,11233
 81,Kulturen,kulturen,9367
-82,Kulturen,kulturen,8665
+82,Kulturen,kulturen,8667
 83,Kulturen,kulturen,12953
-84,Kulturen,kulturen,10915
-85,Kulturen,kulturen,12027
-86,Kulturen,kulturen,13356
-87,Kulturen,kulturen,13298
-88,Kulturen,kulturen,7227
-89,Kulturen,kulturen,6506
-90,Kulturen,kulturen,15674
-91,Kulturen,kulturen,51194
+84,Kulturen,kulturen,10922
+85,Kulturen,kulturen,12028
+86,Kulturen,kulturen,13359
+87,Kulturen,kulturen,13301
+88,Kulturen,kulturen,7232
+89,Kulturen,kulturen,6508
+90,Kulturen,kulturen,15673
+91,Kulturen,kulturen,11738
 72,Vaxholms Fästnings Museum,vax,3
 75,Vaxholms Fästnings Museum,vax,1
 77,Vaxholms Fästnings Museum,vax,1
@@ -839,7 +827,7 @@ timeId,name,affiliateId,count,nameEn
 88,Vaxholms Fästnings Museum,vax,77
 89,Vaxholms Fästnings Museum,vax,19
 90,Vaxholms Fästnings Museum,vax,8
-91,Vaxholms Fästnings Museum,vax,163
+91,Vaxholms Fästnings Museum,vax,11
 76,Göteborgs naturhistoriska museum,gnm,6
 78,Göteborgs naturhistoriska museum,gnm,7
 79,Göteborgs naturhistoriska museum,gnm,410
@@ -854,44 +842,36 @@ timeId,name,affiliateId,count,nameEn
 88,Göteborgs naturhistoriska museum,gnm,1122
 89,Göteborgs naturhistoriska museum,gnm,361
 90,Göteborgs naturhistoriska museum,gnm,1235
-91,Göteborgs naturhistoriska museum,gnm,1438
 48,"Kulturmagasinet, Helsingborgs museer",hem,116
-49,"Kulturmagasinet, Helsingborgs museer",hem,121
+49,"Kulturmagasinet, Helsingborgs museer",hem,5
 50,"Kulturmagasinet, Helsingborgs museer",hem,183
-58,"Kulturmagasinet, Helsingborgs museer",hem,1
-59,"Kulturmagasinet, Helsingborgs museer",hem,1
-60,"Kulturmagasinet, Helsingborgs museer",hem,4
-61,"Kulturmagasinet, Helsingborgs museer",hem,1
-62,"Kulturmagasinet, Helsingborgs museer",hem,1
-63,"Kulturmagasinet, Helsingborgs museer",hem,2
-64,"Kulturmagasinet, Helsingborgs museer",hem,1
-65,"Kulturmagasinet, Helsingborgs museer",hem,1
-66,"Kulturmagasinet, Helsingborgs museer",hem,1
-67,"Kulturmagasinet, Helsingborgs museer",hem,3
-68,"Kulturmagasinet, Helsingborgs museer",hem,15
-69,"Kulturmagasinet, Helsingborgs museer",hem,9
-70,"Kulturmagasinet, Helsingborgs museer",hem,154
-71,"Kulturmagasinet, Helsingborgs museer",hem,273
-72,"Kulturmagasinet, Helsingborgs museer",hem,109
-73,"Kulturmagasinet, Helsingborgs museer",hem,28
-74,"Kulturmagasinet, Helsingborgs museer",hem,88
-75,"Kulturmagasinet, Helsingborgs museer",hem,130
-76,"Kulturmagasinet, Helsingborgs museer",hem,251
-77,"Kulturmagasinet, Helsingborgs museer",hem,313
-78,"Kulturmagasinet, Helsingborgs museer",hem,2393
-79,"Kulturmagasinet, Helsingborgs museer",hem,22863
-80,"Kulturmagasinet, Helsingborgs museer",hem,5707
-81,"Kulturmagasinet, Helsingborgs museer",hem,3724
-82,"Kulturmagasinet, Helsingborgs museer",hem,5300
-83,"Kulturmagasinet, Helsingborgs museer",hem,2909
-84,"Kulturmagasinet, Helsingborgs museer",hem,14675
-85,"Kulturmagasinet, Helsingborgs museer",hem,22601
-86,"Kulturmagasinet, Helsingborgs museer",hem,13368
-87,"Kulturmagasinet, Helsingborgs museer",hem,9229
-88,"Kulturmagasinet, Helsingborgs museer",hem,5850
-89,"Kulturmagasinet, Helsingborgs museer",hem,6101
-90,"Kulturmagasinet, Helsingborgs museer",hem,55102
-91,"Kulturmagasinet, Helsingborgs museer",hem,41086
+60,"Kulturmagasinet, Helsingborgs museer",hem,3
+63,"Kulturmagasinet, Helsingborgs museer",hem,1
+67,"Kulturmagasinet, Helsingborgs museer",hem,2
+68,"Kulturmagasinet, Helsingborgs museer",hem,14
+69,"Kulturmagasinet, Helsingborgs museer",hem,8
+70,"Kulturmagasinet, Helsingborgs museer",hem,43
+71,"Kulturmagasinet, Helsingborgs museer",hem,162
+72,"Kulturmagasinet, Helsingborgs museer",hem,104
+73,"Kulturmagasinet, Helsingborgs museer",hem,23
+74,"Kulturmagasinet, Helsingborgs museer",hem,83
+75,"Kulturmagasinet, Helsingborgs museer",hem,125
+76,"Kulturmagasinet, Helsingborgs museer",hem,248
+77,"Kulturmagasinet, Helsingborgs museer",hem,311
+78,"Kulturmagasinet, Helsingborgs museer",hem,2402
+79,"Kulturmagasinet, Helsingborgs museer",hem,22871
+80,"Kulturmagasinet, Helsingborgs museer",hem,5730
+81,"Kulturmagasinet, Helsingborgs museer",hem,3731
+82,"Kulturmagasinet, Helsingborgs museer",hem,5325
+83,"Kulturmagasinet, Helsingborgs museer",hem,2932
+84,"Kulturmagasinet, Helsingborgs museer",hem,14760
+85,"Kulturmagasinet, Helsingborgs museer",hem,22657
+86,"Kulturmagasinet, Helsingborgs museer",hem,13404
+87,"Kulturmagasinet, Helsingborgs museer",hem,9297
+88,"Kulturmagasinet, Helsingborgs museer",hem,5906
+89,"Kulturmagasinet, Helsingborgs museer",hem,6247
+90,"Kulturmagasinet, Helsingborgs museer",hem,54920
+91,"Kulturmagasinet, Helsingborgs museer",hem,10646
 53,Vänersborgs museum,vbg,1
 68,Vänersborgs museum,vbg,13
 69,Vänersborgs museum,vbg,49
@@ -900,23 +880,23 @@ timeId,name,affiliateId,count,nameEn
 72,Vänersborgs museum,vbg,523
 73,Vänersborgs museum,vbg,226
 74,Vänersborgs museum,vbg,212
-75,Vänersborgs museum,vbg,187
+75,Vänersborgs museum,vbg,188
 76,Vänersborgs museum,vbg,745
 77,Vänersborgs museum,vbg,613
 78,Vänersborgs museum,vbg,1407
-79,Vänersborgs museum,vbg,4878
-80,Vänersborgs museum,vbg,1715
-81,Vänersborgs museum,vbg,3601
-82,Vänersborgs museum,vbg,3932
-83,Vänersborgs museum,vbg,4679
-84,Vänersborgs museum,vbg,6781
-85,Vänersborgs museum,vbg,8358
-86,Vänersborgs museum,vbg,11268
-87,Vänersborgs museum,vbg,53153
-88,Vänersborgs museum,vbg,13134
-89,Vänersborgs museum,vbg,6673
-90,Vänersborgs museum,vbg,11577
-91,Vänersborgs museum,vbg,61453
+79,Vänersborgs museum,vbg,4883
+80,Vänersborgs museum,vbg,1707
+81,Vänersborgs museum,vbg,3599
+82,Vänersborgs museum,vbg,3933
+83,Vänersborgs museum,vbg,4682
+84,Vänersborgs museum,vbg,6778
+85,Vänersborgs museum,vbg,8158
+86,Vänersborgs museum,vbg,10344
+87,Vänersborgs museum,vbg,52804
+88,Vänersborgs museum,vbg,12999
+89,Vänersborgs museum,vbg,6646
+90,Vänersborgs museum,vbg,11570
+91,Vänersborgs museum,vbg,3756
 78,Teleseum,tes,2
 79,Teleseum,tes,1
 80,Teleseum,tes,15
@@ -928,11 +908,10 @@ timeId,name,affiliateId,count,nameEn
 86,Teleseum,tes,1
 87,Teleseum,tes,53
 88,Teleseum,tes,103
-91,Teleseum,tes,311
 49,Upplandsmuseet,upmu,2
 56,Upplandsmuseet,upmu,2
 57,Upplandsmuseet,upmu,2
-58,Upplandsmuseet,upmu,5
+58,Upplandsmuseet,upmu,3
 60,Upplandsmuseet,upmu,1
 62,Upplandsmuseet,upmu,1
 63,Upplandsmuseet,upmu,105
@@ -943,27 +922,27 @@ timeId,name,affiliateId,count,nameEn
 68,Upplandsmuseet,upmu,35
 69,Upplandsmuseet,upmu,13
 70,Upplandsmuseet,upmu,116
-71,Upplandsmuseet,upmu,71
+71,Upplandsmuseet,upmu,72
 72,Upplandsmuseet,upmu,115
 73,Upplandsmuseet,upmu,90
 74,Upplandsmuseet,upmu,226
 75,Upplandsmuseet,upmu,236
 76,Upplandsmuseet,upmu,333
-77,Upplandsmuseet,upmu,344
-78,Upplandsmuseet,upmu,939
-79,Upplandsmuseet,upmu,1767
-80,Upplandsmuseet,upmu,1438
-81,Upplandsmuseet,upmu,7778
-82,Upplandsmuseet,upmu,7577
-83,Upplandsmuseet,upmu,10689
-84,Upplandsmuseet,upmu,16668
-85,Upplandsmuseet,upmu,21015
-86,Upplandsmuseet,upmu,25601
-87,Upplandsmuseet,upmu,17555
-88,Upplandsmuseet,upmu,13161
-89,Upplandsmuseet,upmu,26470
-90,Upplandsmuseet,upmu,76164
-91,Upplandsmuseet,upmu,51735
+77,Upplandsmuseet,upmu,345
+78,Upplandsmuseet,upmu,935
+79,Upplandsmuseet,upmu,1804
+80,Upplandsmuseet,upmu,1444
+81,Upplandsmuseet,upmu,7775
+82,Upplandsmuseet,upmu,7578
+83,Upplandsmuseet,upmu,10693
+84,Upplandsmuseet,upmu,16811
+85,Upplandsmuseet,upmu,21273
+86,Upplandsmuseet,upmu,26029
+87,Upplandsmuseet,upmu,18024
+88,Upplandsmuseet,upmu,13213
+89,Upplandsmuseet,upmu,26678
+90,Upplandsmuseet,upmu,76067
+91,Upplandsmuseet,upmu,14430
 72,Sveriges militärhistoriska arv,smha,1
 78,Sveriges militärhistoriska arv,smha,1
 84,Sveriges militärhistoriska arv,smha,1
@@ -973,84 +952,66 @@ timeId,name,affiliateId,count,nameEn
 88,Sveriges militärhistoriska arv,smha,1
 89,Sveriges militärhistoriska arv,smha,1
 90,Sveriges militärhistoriska arv,smha,1
-91,Sveriges militärhistoriska arv,smha,6
+91,Sveriges militärhistoriska arv,smha,2
+78,Gotlands försvarsmuseum,gfm,2
+84,Gotlands försvarsmuseum,gfm,2
 88,Gotlands försvarsmuseum,gfm,1
 48,Dramawebben,dramawebben,1
-49,Dramawebben,dramawebben,1
-58,Dramawebben,dramawebben,1
-59,Dramawebben,dramawebben,1
-60,Dramawebben,dramawebben,1
-61,Dramawebben,dramawebben,1
-62,Dramawebben,dramawebben,1
-63,Dramawebben,dramawebben,1
-64,Dramawebben,dramawebben,1
-65,Dramawebben,dramawebben,1
-66,Dramawebben,dramawebben,1
-67,Dramawebben,dramawebben,1
-68,Dramawebben,dramawebben,1
-69,Dramawebben,dramawebben,1
-70,Dramawebben,dramawebben,7
-71,Dramawebben,dramawebben,1
-72,Dramawebben,dramawebben,1
-73,Dramawebben,dramawebben,6
-74,Dramawebben,dramawebben,4
-75,Dramawebben,dramawebben,13
-76,Dramawebben,dramawebben,7
-77,Dramawebben,dramawebben,17
-78,Dramawebben,dramawebben,48
-79,Dramawebben,dramawebben,110
-80,Dramawebben,dramawebben,62
-81,Dramawebben,dramawebben,103
-82,Dramawebben,dramawebben,27
-83,Dramawebben,dramawebben,9
-84,Dramawebben,dramawebben,2
-85,Dramawebben,dramawebben,1
-86,Dramawebben,dramawebben,1
-87,Dramawebben,dramawebben,1
-88,Dramawebben,dramawebben,2
-89,Dramawebben,dramawebben,1
-91,Dramawebben,dramawebben,19
+70,Dramawebben,dramawebben,6
+73,Dramawebben,dramawebben,5
+74,Dramawebben,dramawebben,3
+75,Dramawebben,dramawebben,12
+76,Dramawebben,dramawebben,6
+77,Dramawebben,dramawebben,16
+78,Dramawebben,dramawebben,47
+79,Dramawebben,dramawebben,109
+80,Dramawebben,dramawebben,61
+81,Dramawebben,dramawebben,102
+82,Dramawebben,dramawebben,26
+83,Dramawebben,dramawebben,8
+84,Dramawebben,dramawebben,1
+88,Dramawebben,dramawebben,1
 49,Världskulturmuseet,smvk-vkm,2
 71,Världskulturmuseet,smvk-vkm,1
 74,Världskulturmuseet,smvk-vkm,1
 76,Världskulturmuseet,smvk-vkm,30
 77,Världskulturmuseet,smvk-vkm,40
 78,Världskulturmuseet,smvk-vkm,1508
-79,Världskulturmuseet,smvk-vkm,1728
-80,Världskulturmuseet,smvk-vkm,6163
+79,Världskulturmuseet,smvk-vkm,1729
+80,Världskulturmuseet,smvk-vkm,6162
 81,Världskulturmuseet,smvk-vkm,6455
 82,Världskulturmuseet,smvk-vkm,18091
-83,Världskulturmuseet,smvk-vkm,22375
+83,Världskulturmuseet,smvk-vkm,22376
 84,Världskulturmuseet,smvk-vkm,3564
 85,Världskulturmuseet,smvk-vkm,4755
 86,Världskulturmuseet,smvk-vkm,5186
 87,Världskulturmuseet,smvk-vkm,4078
 88,Världskulturmuseet,smvk-vkm,5121
-89,Världskulturmuseet,smvk-vkm,1167
+89,Världskulturmuseet,smvk-vkm,1166
 90,Världskulturmuseet,smvk-vkm,616
-91,Världskulturmuseet,smvk-vkm,16189
+91,Världskulturmuseet,smvk-vkm,4205
 70,Sundsvalls museum,sm,2
 71,Sundsvalls museum,sm,3
 72,Sundsvalls museum,sm,7
 73,Sundsvalls museum,sm,3
 74,Sundsvalls museum,sm,11
-75,Sundsvalls museum,sm,24
-76,Sundsvalls museum,sm,68
-77,Sundsvalls museum,sm,32
+75,Sundsvalls museum,sm,25
+76,Sundsvalls museum,sm,72
+77,Sundsvalls museum,sm,34
 78,Sundsvalls museum,sm,371
-79,Sundsvalls museum,sm,2109
-80,Sundsvalls museum,sm,1651
-81,Sundsvalls museum,sm,1622
+79,Sundsvalls museum,sm,2112
+80,Sundsvalls museum,sm,1656
+81,Sundsvalls museum,sm,1625
 82,Sundsvalls museum,sm,1166
-83,Sundsvalls museum,sm,1160
-84,Sundsvalls museum,sm,2146
-85,Sundsvalls museum,sm,5501
-86,Sundsvalls museum,sm,3942
-87,Sundsvalls museum,sm,1081
-88,Sundsvalls museum,sm,399
-89,Sundsvalls museum,sm,406
-90,Sundsvalls museum,sm,144
-91,Sundsvalls museum,sm,7391
+83,Sundsvalls museum,sm,1164
+84,Sundsvalls museum,sm,2154
+85,Sundsvalls museum,sm,5455
+86,Sundsvalls museum,sm,3972
+87,Sundsvalls museum,sm,964
+88,Sundsvalls museum,sm,372
+89,Sundsvalls museum,sm,405
+90,Sundsvalls museum,sm,133
+91,Sundsvalls museum,sm,237
 60,Skansen,sk,1
 66,Skansen,sk,1
 68,Skansen,sk,2
@@ -1058,57 +1019,56 @@ timeId,name,affiliateId,count,nameEn
 70,Skansen,sk,37
 71,Skansen,sk,142
 72,Skansen,sk,536
-73,Skansen,sk,1021
-74,Skansen,sk,1322
+73,Skansen,sk,1026
+74,Skansen,sk,1325
 75,Skansen,sk,541
-76,Skansen,sk,595
+76,Skansen,sk,596
 77,Skansen,sk,351
 78,Skansen,sk,334
-79,Skansen,sk,2067
-80,Skansen,sk,471
+79,Skansen,sk,2072
+80,Skansen,sk,475
 81,Skansen,sk,360
-82,Skansen,sk,1345
-83,Skansen,sk,2605
-84,Skansen,sk,124
-85,Skansen,sk,81
-86,Skansen,sk,165
-87,Skansen,sk,104
-88,Skansen,sk,182
-89,Skansen,sk,352
-90,Skansen,sk,304
-91,Skansen,sk,2141
+82,Skansen,sk,1346
+83,Skansen,sk,2607
+84,Skansen,sk,125
+85,Skansen,sk,82
+86,Skansen,sk,166
+87,Skansen,sk,111
+88,Skansen,sk,185
+89,Skansen,sk,353
+90,Skansen,sk,313
+91,Skansen,sk,1493
 49,Dalslands fornminnes- och hembygdsförbund,dfh,1
 79,Dalslands fornminnes- och hembygdsförbund,dfh,13
 80,Dalslands fornminnes- och hembygdsförbund,dfh,25
 81,Dalslands fornminnes- och hembygdsförbund,dfh,11
-82,Dalslands fornminnes- och hembygdsförbund,dfh,212
-91,Dalslands fornminnes- och hembygdsförbund,dfh,12
+82,Dalslands fornminnes- och hembygdsförbund,dfh,211
 49,Länsmuseet Gävleborg,s-xlm,2
 57,Länsmuseet Gävleborg,s-xlm,1
 61,Länsmuseet Gävleborg,s-xlm,1
 66,Länsmuseet Gävleborg,s-xlm,1
-70,Länsmuseet Gävleborg,s-xlm,10
+70,Länsmuseet Gävleborg,s-xlm,11
 71,Länsmuseet Gävleborg,s-xlm,3
-72,Länsmuseet Gävleborg,s-xlm,14
+72,Länsmuseet Gävleborg,s-xlm,15
 73,Länsmuseet Gävleborg,s-xlm,6
-74,Länsmuseet Gävleborg,s-xlm,25
-75,Länsmuseet Gävleborg,s-xlm,37
-76,Länsmuseet Gävleborg,s-xlm,63
+74,Länsmuseet Gävleborg,s-xlm,27
+75,Länsmuseet Gävleborg,s-xlm,39
+76,Länsmuseet Gävleborg,s-xlm,66
 77,Länsmuseet Gävleborg,s-xlm,94
 78,Länsmuseet Gävleborg,s-xlm,367
-79,Länsmuseet Gävleborg,s-xlm,1392
-80,Länsmuseet Gävleborg,s-xlm,2581
-81,Länsmuseet Gävleborg,s-xlm,13354
-82,Länsmuseet Gävleborg,s-xlm,9255
-83,Länsmuseet Gävleborg,s-xlm,11505
-84,Länsmuseet Gävleborg,s-xlm,24158
-85,Länsmuseet Gävleborg,s-xlm,15508
-86,Länsmuseet Gävleborg,s-xlm,10246
-87,Länsmuseet Gävleborg,s-xlm,6946
-88,Länsmuseet Gävleborg,s-xlm,3718
-89,Länsmuseet Gävleborg,s-xlm,55650
+79,Länsmuseet Gävleborg,s-xlm,1399
+80,Länsmuseet Gävleborg,s-xlm,2582
+81,Länsmuseet Gävleborg,s-xlm,13359
+82,Länsmuseet Gävleborg,s-xlm,9259
+83,Länsmuseet Gävleborg,s-xlm,11508
+84,Länsmuseet Gävleborg,s-xlm,24191
+85,Länsmuseet Gävleborg,s-xlm,15511
+86,Länsmuseet Gävleborg,s-xlm,10249
+87,Länsmuseet Gävleborg,s-xlm,6918
+88,Länsmuseet Gävleborg,s-xlm,3724
+89,Länsmuseet Gävleborg,s-xlm,55648
 90,Länsmuseet Gävleborg,s-xlm,1059
-91,Länsmuseet Gävleborg,s-xlm,39686
+91,Länsmuseet Gävleborg,s-xlm,1931
 49,Riksantikvarieämbetet,raä,1
 50,Riksantikvarieämbetet,raä,6
 53,Riksantikvarieämbetet,raä,1
@@ -1116,10 +1076,10 @@ timeId,name,affiliateId,count,nameEn
 59,Riksantikvarieämbetet,raä,58
 60,Riksantikvarieämbetet,raä,1377
 61,Riksantikvarieämbetet,raä,568
-62,Riksantikvarieämbetet,raä,1053
+62,Riksantikvarieämbetet,raä,1052
 63,Riksantikvarieämbetet,raä,508
-64,Riksantikvarieämbetet,raä,642
-65,Riksantikvarieämbetet,raä,343
+64,Riksantikvarieämbetet,raä,650
+65,Riksantikvarieämbetet,raä,354
 66,Riksantikvarieämbetet,raä,738
 67,Riksantikvarieämbetet,raä,562
 68,Riksantikvarieämbetet,raä,499
@@ -1134,18 +1094,18 @@ timeId,name,affiliateId,count,nameEn
 77,Riksantikvarieämbetet,raä,3766
 78,Riksantikvarieämbetet,raä,11918
 79,Riksantikvarieämbetet,raä,12640
-80,Riksantikvarieämbetet,raä,14870
+80,Riksantikvarieämbetet,raä,14871
 81,Riksantikvarieämbetet,raä,17855
-82,Riksantikvarieämbetet,raä,25777
+82,Riksantikvarieämbetet,raä,25775
 83,Riksantikvarieämbetet,raä,35285
 84,Riksantikvarieämbetet,raä,24417
 85,Riksantikvarieämbetet,raä,31495
 86,Riksantikvarieämbetet,raä,26403
 87,Riksantikvarieämbetet,raä,16394
-88,Riksantikvarieämbetet,raä,16326
-89,Riksantikvarieämbetet,raä,29377
-90,Riksantikvarieämbetet,raä,29965
-91,Riksantikvarieämbetet,raä,99351
+88,Riksantikvarieämbetet,raä,16332
+89,Riksantikvarieämbetet,raä,29419
+90,Riksantikvarieämbetet,raä,29961
+91,Riksantikvarieämbetet,raä,16034
 58,Armémuseum,arme,3
 62,Armémuseum,arme,1
 63,Armémuseum,arme,1
@@ -1154,28 +1114,28 @@ timeId,name,affiliateId,count,nameEn
 67,Armémuseum,arme,1
 68,Armémuseum,arme,22
 69,Armémuseum,arme,21
-70,Armémuseum,arme,168
-71,Armémuseum,arme,2376
-72,Armémuseum,arme,856
+70,Armémuseum,arme,169
+71,Armémuseum,arme,2378
+72,Armémuseum,arme,858
 73,Armémuseum,arme,153
-74,Armémuseum,arme,234
-75,Armémuseum,arme,252
-76,Armémuseum,arme,846
-77,Armémuseum,arme,545
-78,Armémuseum,arme,1739
-79,Armémuseum,arme,10001
-80,Armémuseum,arme,4906
-81,Armémuseum,arme,3489
-82,Armémuseum,arme,2009
-83,Armémuseum,arme,8600
-84,Armémuseum,arme,10854
-85,Armémuseum,arme,6426
-86,Armémuseum,arme,5953
-87,Armémuseum,arme,9034
-88,Armémuseum,arme,3727
-89,Armémuseum,arme,2946
-90,Armémuseum,arme,5060
-91,Armémuseum,arme,23054
+74,Armémuseum,arme,235
+75,Armémuseum,arme,303
+76,Armémuseum,arme,852
+77,Armémuseum,arme,544
+78,Armémuseum,arme,1910
+79,Armémuseum,arme,10103
+80,Armémuseum,arme,4912
+81,Armémuseum,arme,3494
+82,Armémuseum,arme,2011
+83,Armémuseum,arme,8620
+84,Armémuseum,arme,10915
+85,Armémuseum,arme,6443
+86,Armémuseum,arme,5969
+87,Armémuseum,arme,9038
+88,Armémuseum,arme,3732
+89,Armémuseum,arme,2969
+90,Armémuseum,arme,5064
+91,Armémuseum,arme,1583
 49,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,12
 59,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,1
 73,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,1
@@ -1185,18 +1145,18 @@ timeId,name,affiliateId,count,nameEn
 77,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,17
 78,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,36
 79,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,313
-80,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,306
-81,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,1041
-82,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,388
+80,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,307
+81,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,1040
+82,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,401
 83,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,121
-84,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,1213
-85,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,2884
-86,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,6053
+84,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,1246
+85,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,3103
+86,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,6073
 87,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,4427
-88,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,7308
-89,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,8293
+88,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,7311
+89,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,8288
 90,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,18901
-91,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,15992
+91,"Ajtte, Svenskt Fjäll- och Samemuseum",ajtte,2846
 79,Försvarsmuseum Boden,fmb,1
 81,Försvarsmuseum Boden,fmb,2
 82,Försvarsmuseum Boden,fmb,13
@@ -1207,55 +1167,53 @@ timeId,name,affiliateId,count,nameEn
 88,Försvarsmuseum Boden,fmb,2
 89,Försvarsmuseum Boden,fmb,6
 90,Försvarsmuseum Boden,fmb,90
-91,Försvarsmuseum Boden,fmb,64
+91,Försvarsmuseum Boden,fmb,39
 78,Falbygdens museum,s-fbm,48
 79,Falbygdens museum,s-fbm,379
-80,Falbygdens museum,s-fbm,604
+80,Falbygdens museum,s-fbm,603
 81,Falbygdens museum,s-fbm,1123
-82,Falbygdens museum,s-fbm,1293
-83,Falbygdens museum,s-fbm,3193
+82,Falbygdens museum,s-fbm,1292
+83,Falbygdens museum,s-fbm,3188
 84,Falbygdens museum,s-fbm,1649
 85,Falbygdens museum,s-fbm,2029
 86,Falbygdens museum,s-fbm,940
-87,Falbygdens museum,s-fbm,2138
+87,Falbygdens museum,s-fbm,2133
 88,Falbygdens museum,s-fbm,2026
 89,Falbygdens museum,s-fbm,2476
 90,Falbygdens museum,s-fbm,434
-91,Falbygdens museum,s-fbm,5826
 49,Göteborgs stadsmuseum,gsm,11
-50,Göteborgs stadsmuseum,gsm,17
-53,Göteborgs stadsmuseum,gsm,3
+50,Göteborgs stadsmuseum,gsm,16
 54,Göteborgs stadsmuseum,gsm,2
 58,Göteborgs stadsmuseum,gsm,12
 62,Göteborgs stadsmuseum,gsm,4
 63,Göteborgs stadsmuseum,gsm,2
 65,Göteborgs stadsmuseum,gsm,2
-66,Göteborgs stadsmuseum,gsm,4
+66,Göteborgs stadsmuseum,gsm,3
 67,Göteborgs stadsmuseum,gsm,7
 68,Göteborgs stadsmuseum,gsm,65
 69,Göteborgs stadsmuseum,gsm,64
 70,Göteborgs stadsmuseum,gsm,142
-71,Göteborgs stadsmuseum,gsm,383
+71,Göteborgs stadsmuseum,gsm,382
 72,Göteborgs stadsmuseum,gsm,455
 73,Göteborgs stadsmuseum,gsm,431
 74,Göteborgs stadsmuseum,gsm,798
 75,Göteborgs stadsmuseum,gsm,880
 76,Göteborgs stadsmuseum,gsm,1217
-77,Göteborgs stadsmuseum,gsm,1251
-78,Göteborgs stadsmuseum,gsm,2806
-79,Göteborgs stadsmuseum,gsm,5186
-80,Göteborgs stadsmuseum,gsm,9032
-81,Göteborgs stadsmuseum,gsm,8832
-82,Göteborgs stadsmuseum,gsm,11755
-83,Göteborgs stadsmuseum,gsm,12368
-84,Göteborgs stadsmuseum,gsm,11294
-85,Göteborgs stadsmuseum,gsm,8800
-86,Göteborgs stadsmuseum,gsm,12492
-87,Göteborgs stadsmuseum,gsm,19530
-88,Göteborgs stadsmuseum,gsm,11631
-89,Göteborgs stadsmuseum,gsm,6009
-90,Göteborgs stadsmuseum,gsm,18081
-91,Göteborgs stadsmuseum,gsm,53135
+77,Göteborgs stadsmuseum,gsm,1256
+78,Göteborgs stadsmuseum,gsm,2805
+79,Göteborgs stadsmuseum,gsm,5187
+80,Göteborgs stadsmuseum,gsm,9036
+81,Göteborgs stadsmuseum,gsm,8834
+82,Göteborgs stadsmuseum,gsm,11759
+83,Göteborgs stadsmuseum,gsm,12371
+84,Göteborgs stadsmuseum,gsm,11296
+85,Göteborgs stadsmuseum,gsm,8810
+86,Göteborgs stadsmuseum,gsm,12551
+87,Göteborgs stadsmuseum,gsm,19569
+88,Göteborgs stadsmuseum,gsm,11645
+89,Göteborgs stadsmuseum,gsm,6017
+90,Göteborgs stadsmuseum,gsm,18192
+91,Göteborgs stadsmuseum,gsm,11998
 49,Örebro läns museum,s-olm,1
 52,Örebro läns museum,s-olm,1
 57,Örebro läns museum,s-olm,1
@@ -1285,10 +1243,10 @@ timeId,name,affiliateId,count,nameEn
 82,Örebro läns museum,s-olm,7461
 83,Örebro läns museum,s-olm,10879
 84,Örebro läns museum,s-olm,10583
-85,Örebro läns museum,s-olm,14231
-86,Örebro läns museum,s-olm,21768
-87,Örebro läns museum,s-olm,38590
-88,Örebro läns museum,s-olm,3721
-89,Örebro läns museum,s-olm,26275
+85,Örebro läns museum,s-olm,14321
+86,Örebro läns museum,s-olm,21771
+87,Örebro läns museum,s-olm,38599
+88,Örebro läns museum,s-olm,3727
+89,Örebro läns museum,s-olm,26365
 90,Örebro läns museum,s-olm,9416
-91,Örebro läns museum,s-olm,38264
+91,Örebro läns museum,s-olm,4279

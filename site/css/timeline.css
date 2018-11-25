@@ -171,9 +171,9 @@ p {
     font-weight: 400;
     position: relative;
     width: 1200px;
-    /*  float: left;
-*/
+    /* float: left; */
     opacity: 0;
+    display: inline-block;
 }
 
 #wordArea .group {
