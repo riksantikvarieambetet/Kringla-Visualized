@@ -257,6 +257,14 @@ p {
     animation: fadein 0.15s;
 }
 
+a[href="#"] {
+    cursor: default;
+}
+
+a[href="#"] > img {
+    display: none;
+}
+
 @keyframes fadein {
     from {
         height: 0%;

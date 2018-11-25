@@ -8,7 +8,7 @@
 *   generative design process
 */
 
-var ddbUrl = "https://www.deutsche-digitale-bibliothek.de/searchresults?query=&lang=en&offset=0&rows=20&viewType=grid";
+var ddbUrl = "http://www.kringla.nu/kringla/sok?text=";
 
 var margin = {top: 10, right: 20, bottom: 70, left: 5 },
     width = 1080 - margin.left - margin.right,
@@ -768,14 +768,19 @@ function dataLoaded(error, data, dataTime, dataSector, dataSectorType, dataType,
       // })
       .attr("href", function(d){
         // console.log(urlTable, data.key)
-        var nameDe = d.values[0].name;
-        return ddbUrl +
-          "&facetValues%5B%5D="+urlTable[data.key]+"%3D"+nameDe +
-          "&facetValues%5B%5D=begin_time%3D%5B*+TO+"+timeRange[1]+"%5D"+
-          "&facetValues%5B%5D=end_time%3D%5B"+timeRange[0]+"+TO+*%5D"+
-          "&offset=0";
+        var target;
+        if (d.values[0].keywordId) {
+          target = d.values[0].name;
+        } else if (d.values[0].placeId) {
+          target = "&filter=provinceName%3D" + d.values[0].name.toLowerCase();
+        } else {
+          // kringla can not filter using institutions from SOCH (easily)
+          return "#";
+        }
+        return ddbUrl + target;
       })
 
+      area.select('a[href="#"]').attr("target", null);
     // area.order()
 
   }
