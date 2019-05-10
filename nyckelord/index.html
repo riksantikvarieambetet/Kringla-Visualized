@@ -1,0 +1,62 @@
+<html lang="sv">
+<head>
+    <title>Nyckelord - Kringla visualiserat</title>
+    <meta charset="utf-8">
+
+    <link rel="icon" href="../raa-favicon-32.png" sizes="32x32">
+    <link rel="icon" href="../raa-favicon-57.png" sizes="57x57">
+    <link rel="icon" href="../raa-favicon-76.png" sizes="76x76">
+    <link rel="icon" href="../raa-favicon-96.png" sizes="96x96">
+    <link rel="icon" href="../raa-favicon-128.png" sizes="128x128">
+    <link rel="icon" href="../raa-favicon-228.png" sizes="228x228">
+
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/keywords.css" rel="stylesheet">
+
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/viz_stichworte.js"></script>
+  
+</head>
+
+   
+<body>
+<div class="header">
+  <div class="container">
+    <h1>Kringla <span>visualiserat</span></h1>
+    <div class="menu">
+      <span><a href="../">Start</a></span>
+      <span><a href="../tidslinje/">Tidslinje</a></span>
+      <span><a class="active" href="../nyckelord/">Nyckelord</a></span>
+      <span><a href="../platser/">Landskap</a></span>
+      <span class="lang"><a href="../keywords/">English</a></span>
+    </div>
+  </div>
+</div>
+<div id="overlay"><svg></svg></div>
+    
+<div class="subheader">
+  <div class="container">
+    <div class="help"></div>
+    <h1><span class="blankHL">Nyckelord</span></h1>
+    <p>
+      De 500 vanligaste nyckelorden visas efter förekomst , genom att klicka på ett nyckelord kan du se vilka andra nyckelord som ofta förekommer tillsammans med detta.
+    </p>
+  </div>
+</div>
+<div class="main"></div>
+<div id="tip" class="d3-tip n" style="position: absolute;  pointer-events: none; box-sizing: border-box;"><p></p></div>
+
+<div class="footer">
+	<div class="container">
+		<a href="https://www.raa.se/in-english/digital-services/about-soch/"><img src="../RAA_logo_farg_k-samsok-RGB.svg" alt="K-Samsöks logotyp" width="300px"/></a>
+		<p>
+			Byggt på <a href="https://www.raa.se/hitta-information/k-samsok/">K-Samsök</a>.<br>
+			<a href="https://github.com/riksantikvarieambetet/Kringla-Visualized">Källkoden</a> är licensierad under MIT och datan under CC0.
+		</p>
+	</div>
+</div>
+
+</body>
+</html>

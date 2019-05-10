@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kringla visualized</title>
+
+<link rel="icon" href="raa-favicon-32.png" sizes="32x32">
+<link rel="icon" href="raa-favicon-57.png" sizes="57x57">
+<link rel="icon" href="raa-favicon-76.png" sizes="76x76">
+<link rel="icon" href="raa-favicon-96.png" sizes="96x96">
+<link rel="icon" href="raa-favicon-128.png" sizes="128x128">
+<link rel="icon" href="raa-favicon-228.png" sizes="228x228">
+
+<link href="css/global.css" rel="stylesheet">
+<link href="css/startpage.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<script src="js/jquery-2.1.1.min.js"></script>
+<meta charset="utf-8">
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <h1>Kringla <span>visualized</span></h1>
+    <div class="menu">
+      <span><a href="./index_en.html" class="active">Start</a></span>
+      <span><a href="timeline/">Timeline</a></span>
+      <span><a href="keywords/">Keywords</a></span>
+      <span><a href="places/">Places</a></span>
+      <span class="lang"><a href="./">Svenska</a></span>
+    </div>
+  </div>
+</div>
+
+<div class="subheader">
+  <div class="container">
+    <h1>What does a collection of over 7 million cultural heritage objects look like?</h1>
+	<p>
+		<a href="http://kringla.nu/">Kringla</a> provides access to a continuously growing collection that is part of the digital cultural heritage of Swedish museums and other cultural institutions. This project attempts to make the dimensions of this data visible and tangible with the help of interactive visualizations.
+		The resulting representations are experimental overviews of the temporal and spatial distribution of objects and the associated topics, people, and institutions.
+	</p>
+  </div>
+</div>
+
+<div class="main">
+<div class="container">
+
+<div class="project">
+<a href="timeline/">
+<h2>Periods &amp; Object types</h2>
+<p>This overview visualizes the most common keywords, places, and institutions over time.</p></a>
+</div>
+
+<div class="project">
+<a href="keywords/">
+<h2>Keywords</h2>
+<p>The most frequent keywords are shown using varying font sizes. Common occurrences can be revealed per click.</p></a>
+</div>
+
+<div class="project">
+<a href="places/">
+<h2>Regions &amp; Object types</h2>
+<p>An overview of regions with the most entries. The rings are subdivided by the different object types.</p></a>
+</div>
+
+<div style="clear: both;">&nbsp;</div>
+
+</div></div>
+
+<div class="background">
+
+<div class="container">
+
+	<h2>Background</h2>
+	<p>
+		These visualizations was created within the scope of the <a href="https://raa.se/">Swedish National Heritage Board</a>'s evaluation of generous interfaces. Generous interfaces is complement to common web interfaces of archives and museums often dominated by text search. This prototype focuses on metadata. This site is based on  <a href="https://uclab.fh-potsdam.de/ddb/">Deutsche Digitale Bibliothek visualized</a> created by <a href="http://fh-potsdam.de/">Potsdam University of Applied Sciences</a> and <a href="http://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a>.
+	</p>
+
+	<h2 class="faq">FAQ</h2>
+
+	<p class="faq">
+		<strong>How are the visualizations related to the metadata fields of Kringla.nu?</strong><br>
+		The visualizations are based data from the Swedish Open Cultural Heritage API (SOCH/K-samsök), it might contain more data and different metadata fields then those visible at Kringla.nu.
+		<br><br>
+		<strong>Why do the numbers of the objects sometimes do not match the numbers displayed on kringla.nu?</strong>
+		<br>
+		The visualizations are based on data snapshots and might not be up to date.
+		<br><br>
+		<strong>Why does the number of objects differs between the visualizations?</strong>
+		<br>
+		The different visualizations have different requirements on the objects metadata, resulting in many objects not qualifying for a specific visualization.
+	</p>
+
+	</div>
+</div>
+
+<div class="footer">
+<div class="container">
+	<a href="https://www.raa.se/in-english/digital-services/about-soch/"><img src="RAA_logo_farg_k-samsok-RGB.svg" alt="The Swedish Open Cultural Heritage logo" width="300px"/></a>
+	<p>
+		Built on top of the <a href="https://www.raa.se/in-english/digital-services/about-soch/">Swedish Open Cultural Heritage API</a>.<br>
+		The <a href="https://github.com/riksantikvarieambetet/Kringla-Visualized">source code</a> is available under MIT. The data under CC0.
+	</p>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<html lang="sv">
+<head>
+    <title>Keywords - Kringla visualized</title>
+    <meta charset="utf-8">
+
+    <link rel="icon" href="../raa-favicon-32.png" sizes="32x32">
+    <link rel="icon" href="../raa-favicon-57.png" sizes="57x57">
+    <link rel="icon" href="../raa-favicon-76.png" sizes="76x76">
+    <link rel="icon" href="../raa-favicon-96.png" sizes="96x96">
+    <link rel="icon" href="../raa-favicon-128.png" sizes="128x128">
+    <link rel="icon" href="../raa-favicon-228.png" sizes="228x228">
+
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/keywords.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/viz_stichworte.js"></script>
+</head>
+
+<body>
+<div class="header">
+  <div class="container">
+    <h1>Kringla <span>visualized</span></h1>
+    <div class="menu">
+      <span><a href="../index_en.html">Start</a></span>
+      <span><a href="../timeline/">Timeline</a></span>
+      <span><a class="active" href="../keywords/">Keywords</a></span>
+      <span><a href="../places/">Places</a></span>
+      <span class="lang"><a href="../nyckelord/">Svenska</a></span>
+    </div>
+  </div>
+</div>
+<div id="overlay"><svg></svg></div>
+
+<div class="subheader">
+  <div class="container">
+    <div class="help"></div>
+    <h1><span class="blankHL">Keywords</span></h1>
+    <p>
+      The 500 most common keywords are arranged by frequency of occurrence. By clicking on a keyword the co-occurring keywords are highlighted.
+    </p>
+  </div>
+</div>
+<div class="main"></div>
+<div id="tip" class="d3-tip n" style="position: absolute;  pointer-events: none; box-sizing: border-box;"><p></p></div>
+
+<div class="footer">
+  <div class="container">
+    <a href="https://www.raa.se/in-english/digital-services/about-soch/"><img src="../RAA_logo_farg_k-samsok-RGB.svg" alt="The Swedish Open Cultural Heritage logo" width="300px"/></a>
+    <p>
+      Built on top of the <a href="https://www.raa.se/in-english/digital-services/about-soch/">Swedish Open Cultural Heritage API</a>.<br>
+      The <a href="https://github.com/riksantikvarieambetet/Kringla-Visualized">source code</a> is available under MIT. The data under CC0.
+    </p>
+  </div>
+</div>
+</body>
+</html>

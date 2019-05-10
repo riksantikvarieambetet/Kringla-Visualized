@@ -1,0 +1,245 @@
+body {
+    background: #FFF;
+}
+
+.pie-chart {
+    margin-top: 30px;
+    margin-bottom: -5px;
+    padding: 15px;
+}
+
+/*.pie-arc { transition: fill .4s ease-in-out; }*/
+
+.container .sorting {
+    padding-top: 20px;
+    float: left;
+    z-index: 999;
+}
+
+.container .sorting img {
+    padding: 4px;
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.container .sorting .button .active {
+    opacity: 1;
+}
+
+.container .sorting a {
+    text-decoration: none;
+}
+
+.dissolve {
+    display: none;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#wrapper_clone {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.main {
+    font-weight: 400;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: stretch;
+    display: -webkit-inline-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -webkit-align-items: flex-end;
+    -webkit-align-content: stretch;
+}
+
+.townName {
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+p.name {
+    color: #3A3A3A;
+    line-height: .5em;
+}
+
+p.value {
+    color: #6A6A6A;
+    line-height: .4em;
+}
+
+.d3-tip {
+    padding: 5px 10px 5px 10px;
+    background-color: #3A3A3A;
+    pointer-events: none;
+    text-align: center;
+    max-width: 200px;
+}
+
+.d3-tip h3 {
+    line-height: 1.2rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 2px 0 2px 0;
+}
+
+.d3-tip p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 0.75rem;
+    padding: 2px 0 2px 0;
+    margin: 0;
+}
+
+.d3-tip p.description {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 5px 0 5px 0;
+    margin: 0;
+}
+
+/* Creates a small triangle extender for the tooltip */
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 15px;
+    width: 100%;
+    line-height: 0.5;
+    color: #3A3A3A;
+    position: absolute;
+    pointer-events: none;
+}
+
+/* Northward tooltips */
+
+.d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+}
+
+/* Eastward tooltips */
+
+.d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 -3px;
+    top: 50%;
+    left: -51%;
+}
+
+/* Southward tooltips */
+
+.d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+}
+
+/* Westward tooltips */
+
+.d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 1px;
+    top: 50%;
+    left: 51%;
+}
+
+.help {
+    float: right;
+    cursor: pointer;
+}
+
+.help img {
+    width: 20px;
+    height: 20px;
+    opacity: .5;
+}
+
+.help .active,
+.help img:hover {
+    opacity: 1;
+}
+
+#overlay {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    z-index: 50;
+}
+
+#overlay svg {
+    display: none;
+    position: absolute;
+    height: 900px;
+    width: 1200px;
+    background: rgba(34, 34, 34, 0);
+    z-index: 100;
+    left: 0;
+}
+
+#overlay text {
+    fill: #FFF;
+    font-size: 16px;
+}
+
+#overlay circle {
+    fill: #3A3A3A;
+    opacity: 0.22;
+}
+
+#overlay line {
+    stroke: #3A3A3A;
+    opacity: 0.9;
+}
+
+#overlay rect {
+    fill: #3A3A3A;
+    opacity: 0.9;
+}
+
+.Blekinge { order: 0 }
+.Bohuslän { order: 1 }
+.Dalarna { order: 2 }
+.Dalsland { order: 3 }
+.Gotland { order: 4 }
+.Gästrikland { order: 5 }
+.Halland { order: 6 }
+.Hälsingland { order: 7 }
+.Härjedalen { order: 8 }
+.Jämtland { order: 9 }
+.Lappland { order: 10 }
+.Medelpad { order: 11 }
+.Norrbotten { order: 12 }
+.Närke { order: 13 }
+.Skåne { order: 14 }
+.Småland { order: 15 }
+.Södermanland { order: 16 }
+.Uppland { order: 17 }
+.Värmland { order: 18 }
+.Västerbotten { order: 19 }
+.Västergötland { order: 20 }
+.Västmanland { order: 21 }
+.Ångermanland { order: 22 }
+.Öland { order: 23 }
+.Östergötland { order: 24 }

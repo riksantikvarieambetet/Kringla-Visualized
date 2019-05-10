@@ -1,0 +1,263 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <title>Regions - Kringla visualized</title>
+    <meta charset="utf-8">
+
+    <link rel="icon" href="../raa-favicon-32.png" sizes="32x32">
+    <link rel="icon" href="../raa-favicon-57.png" sizes="57x57">
+    <link rel="icon" href="../raa-favicon-76.png" sizes="76x76">
+    <link rel="icon" href="../raa-favicon-96.png" sizes="96x96">
+    <link rel="icon" href="../raa-favicon-128.png" sizes="128x128">
+    <link rel="icon" href="../raa-favicon-228.png" sizes="228x228">
+
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="js/d3.v2.js"></script>
+    <script src="js/viz_orte.js"></script>
+    <script src="../js/d3.tip.js"></script>
+    <script src="js/data-sets.js"></script>
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/places.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="header">
+  <div class="container">
+    <h1>Kringla <span>visualized</span></h1>
+    <div class="menu">
+      <span><a href="../index_en.html">Start</a></span>
+      <span><a href="../timeline/">Timeline</a></span>
+      <span><a href="../keywords/">Keywords</a></span>
+      <span><a class="active" href="../places/">Places</a></span>
+      <span class="lang"><a href="../platser/">Svenska</a></span>
+    </div>
+  </div>
+</div>
+<div id="overlay"><svg></svg></div>
+<div class="subheader">
+  <div class="container">
+    <div class="help"></div>
+    <h1>Places and Object types</h1>
+    <p id="big" class="">Overview of regions with the most entries. The regions are separated into areas and sorted by size.</p>
+    <p id="alf" class="dissolve">Overview of regions with the most entries. The regions are separated into areas and sorted alphabetically.</p>
+  </div>
+</div>  
+<div class="container">
+    <div class="sorting">
+        <a href="#" class="button"><img src="icons/top.svg" id="top" class="active">
+        <img src="icons/abc.svg" id="abc" class=""></a>
+    </div>
+</div>
+
+<div id="wrapper">
+    <div class="main">
+        <div class="Uppland_max">
+            <div class="pie-chart" id="pie_chart_1"></div>
+            <div class="townName"><p class="name">Uppland</p><p class="value">682681 entries</p></div>
+        </div>
+        <div class="Södermanland_max">
+            <div class="pie-chart" id="pie_chart_2"></div>
+            <div class="townName"><p class="name">Södermanland</p><p class="value">274346 entries</p></div>
+        </div>
+        <div class="Östergötland_max">
+            <div class="pie-chart" id="pie_chart_3"></div>
+            <div class="townName"><p class="name">Östergötland</p><p class="value">219343 entries</p></div>
+        </div>
+        <div class="Västergötland_max">
+            <div class="pie-chart" id="pie_chart_4"></div>
+            <div class="townName"><p class="name">Västergötland</p><p class="value">218293 entries</p></div>
+        </div>
+        <div class="Småland_max">
+            <div class="pie-chart" id="pie_chart_5"></div>
+            <div class="townName"><p class="name">Småland</p><p class="value">178498 entries</p></div>
+        </div>
+        <div class="Gotland_max">
+            <div class="pie-chart" id="pie_chart_6"></div>
+            <div class="townName"><p class="name">Gotland</p><p class="value">135585 entries</p></div>
+        </div>
+        <div class="Skåne_max">
+            <div class="pie-chart" id="pie_chart_7"></div>
+            <div class="townName"><p class="name">Skåne</p><p class="value">133479 entries</p></div>
+        </div>
+        <div class="Bohuslän_max">
+            <div class="pie-chart" id="pie_chart_8"></div>
+            <div class="townName"><p class="name">Bohuslän</p><p class="value">94459 entries</p></div>
+        </div>
+        <div class="Dalarna_max">
+            <div class="pie-chart" id="pie_chart_9"></div>
+            <div class="townName"><p class="name">Dalarna</p><p class="value">79731 entries</p></div>
+        </div>
+        <div class="Västmanland_max">
+            <div class="pie-chart" id="pie_chart_10"></div>
+            <div class="townName"><p class="name">Västmanland</p><p class="value">78238 entries</p></div>
+        </div>
+        <div class="Öland_max">
+            <div class="pie-chart" id="pie_chart_11"></div>
+            <div class="townName"><p class="name">Öland</p><p class="value">69492 entries</p></div>
+        </div>
+        <div class="Lappland_max">
+            <div class="pie-chart" id="pie_chart_12"></div>
+            <div class="townName"><p class="name">Lappland</p><p class="value">63815 entries</p></div>
+        </div>
+        <div class="Värmland_max">
+            <div class="pie-chart" id="pie_chart_13"></div>
+            <div class="townName"><p class="name">Värmland</p><p class="value">56398 entries</p></div>
+        </div>
+        <div class="Jämtland_max">
+            <div class="pie-chart" id="pie_chart_14"></div>
+            <div class="townName"><p class="name">Jämtland</p><p class="value">47857 entries</p></div>
+        </div>
+        <div class="Halland_max">
+            <div class="pie-chart" id="pie_chart_15"></div>
+            <div class="townName"><p class="name">Halland</p><p class="value">46217 entries</p></div>
+        </div>
+        <div class="Hälsingland_max">
+            <div class="pie-chart" id="pie_chart_16"></div>
+            <div class="townName"><p class="name">Hälsingland</p><p class="value">45258 entries</p></div>
+        </div>
+        <div class="Blekinge_max">
+            <div class="pie-chart" id="pie_chart_17"></div>
+            <div class="townName"><p class="name">Blekinge</p><p class="value">41663 entries</p></div>
+        </div>
+        <div class="Ångermanland_max">
+            <div class="pie-chart" id="pie_chart_18"></div>
+            <div class="townName"><p class="name">Ångermanland</p><p class="value">40944 entries</p></div>
+        </div>
+        <div class="Norrbotten_max">
+            <div class="pie-chart" id="pie_chart_19"></div>
+            <div class="townName"><p class="name">Norrbotten</p><p class="value">35847 entries</p></div>
+        </div>
+        <div class="Närke_max">
+            <div class="pie-chart" id="pie_chart_20"></div>
+            <div class="townName"><p class="name">Närke</p><p class="value">35465 entries</p></div>
+        </div>
+        <div class="Gästrikland_max">
+            <div class="pie-chart" id="pie_chart_21"></div>
+            <div class="townName"><p class="name">Gästrikland</p><p class="value">27947 entries</p></div>
+        </div>
+        <div class="Dalsland_max">
+            <div class="pie-chart" id="pie_chart_22"></div>
+            <div class="townName"><p class="name">Dalsland</p><p class="value">26389 entries</p></div>
+        </div>
+        <div class="Medelpad_max">
+            <div class="pie-chart" id="pie_chart_23"></div>
+            <div class="townName"><p class="name">Medelpad</p><p class="value">16369 entries</p></div>
+        </div>
+        <div class="Västerbotten_max">
+            <div class="pie-chart" id="pie_chart_24"></div>
+            <div class="townName"><p class="name">Västerbotten</p><p class="value">15480 entries</p></div>
+        </div>
+        <div class="Härjedalen_max">
+            <div class="pie-chart" id="pie_chart_25"></div>
+            <div class="townName"><p class="name">Härjedalen</p><p class="value">12910 entries</p></div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <a href="https://www.raa.se/in-english/digital-services/about-soch/"><img src="../RAA_logo_farg_k-samsok-RGB.svg" alt="The Swedish Open Cultural Heritage logo" width="300px"/></a>
+        <p>
+            Built on top of the <a href="https://www.raa.se/in-english/digital-services/about-soch/">Swedish Open Cultural Heritage API</a>.<br>
+            The <a href="https://github.com/riksantikvarieambetet/Kringla-Visualized">source code</a> is available under MIT. The data under CC0.
+        </p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    
+    
+    function drawTownPie(name, selector) {
+        var townSet;
+
+        for (var i = 0; i < towns.length; i++) {
+            if (towns[i].name == name) {
+                townSet = towns[i];
+                break;
+            }
+        }
+
+
+        var max = 682681;
+        var min = 12910;
+        var valueScale = d3.scale.sqrt().domain([min, max]).range([25, 165]);
+
+        drawPie(dataSet[name], selector, valueScale(townSet.value), name);
+    }
+
+    drawTownPie("Uppland", "#pie_chart_1", 0);
+    drawTownPie("Södermanland", "#pie_chart_2", 0);
+    drawTownPie("Östergötland", "#pie_chart_3", 0);
+    drawTownPie("Västergötland", "#pie_chart_4", 0);
+    drawTownPie("Småland", "#pie_chart_5", 0);
+    drawTownPie("Gotland", "#pie_chart_6", 0);
+    drawTownPie("Skåne", "#pie_chart_7", 0);
+    drawTownPie("Bohuslän", "#pie_chart_8", 0);
+    drawTownPie("Dalarna", "#pie_chart_9", 0);
+    drawTownPie("Västmanland", "#pie_chart_10", 0);
+    drawTownPie("Öland", "#pie_chart_11", 0);
+    drawTownPie("Lappland", "#pie_chart_12", 0);
+    drawTownPie("Värmland", "#pie_chart_13", 0);
+    drawTownPie("Jämtland", "#pie_chart_14", 0);
+    drawTownPie("Halland", "#pie_chart_15", 0);
+    drawTownPie("Hälsingland", "#pie_chart_16", 0);
+    drawTownPie("Blekinge", "#pie_chart_17", 0);
+    drawTownPie("Ångermanland", "#pie_chart_18", 0);
+    drawTownPie("Norrbotten", "#pie_chart_19", 0);
+    drawTownPie("Närke", "#pie_chart_20", 0);
+    drawTownPie("Gästrikland", "#pie_chart_21", 0);
+    drawTownPie("Dalsland", "#pie_chart_22", 0);
+    drawTownPie("Medelpad", "#pie_chart_23", 0);
+    drawTownPie("Västerbotten", "#pie_chart_24", 0);
+    drawTownPie("Härjedalen", "#pie_chart_25", 0);
+
+$('.button').click
+    ( function() {
+        $(".Uppland_max").toggleClass("Uppland");
+        $(".Södermanland_max").toggleClass("Södermanland");
+        $(".Östergötland_max").toggleClass("Östergötland");
+        $(".Västergötland_max").toggleClass("Västergötland");
+        $(".Småland_max").toggleClass("Småland");
+        $(".Gotland_max").toggleClass("Gotland");
+        $(".Skåne_max").toggleClass("Skåne");
+        $(".Bohuslän_max").toggleClass("Bohuslän");
+        $(".Dalarna_max").toggleClass("Dalarna");
+        $(".Västmanland_max").toggleClass("Västmanland");
+        $(".Öland_max").toggleClass("Öland");
+        $(".Lappland_max").toggleClass("Lappland");
+        $(".Värmland_max").toggleClass("Värmland");
+        $(".Jämtland_max").toggleClass("Jämtland");
+        $(".Halland_max").toggleClass("Halland");
+        $(".Hälsingland_max").toggleClass("Hälsingland");
+        $(".Blekinge_max").toggleClass("Blekinge");
+        $(".Ångermanland_max").toggleClass("Ångermanland");
+        $(".Norrbotten_max").toggleClass("Norrbotten");
+        $(".Närke_max").toggleClass("Närke");
+        $(".Gästrikland_max").toggleClass("Gästrikland");
+        $(".Dalsland_max").toggleClass("Dalsland");
+        $(".Medelpad_max").toggleClass("Medelpad");
+        $(".Västerbotten_max").toggleClass("Västerbotten");
+        $(".Härjedalen_max").toggleClass("Härjedalen");
+
+        $('#top').toggleClass('active');
+        $('#abc').toggleClass('active');
+        $('#big').toggleClass('dissolve');
+        $('#alf').toggleClass('dissolve');
+        return false;
+    });
+
+        // if ($('#abc').hasClass('active') ) {
+        //     d3.select(".subheader .container p")
+        //         .text("Übersicht der Städte mit den meisten entriesn. Die Städte sind unterteilt durch Sparten und alphabetisch sortiert.")
+        // } else{};
+        // else {
+        //     d3.select(".subheader .container p")
+        //         .text("Übersicht der Städte mit den meisten entriesn. Die Städte sind unterteilt durch Sparten und alphabetisch sortiert.")
+        // }
+
+
+
+    </script>
+</body>
+</html>
