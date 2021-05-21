@@ -1,8 +1,6 @@
 import csv
 import requests
 
-user_input = input('Enter you SOCH API key:')
-
 headers = {
     'Accept': 'json'
 }

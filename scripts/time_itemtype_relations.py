@@ -2,14 +2,12 @@ import csv
 
 import requests
 
-user_input = input('Enter you SOCH API key:')
-
 headers = {
     'Accept': 'json'
 }
 
 def get_itemtype_time_counts_url(itemtype):
-    return 'http://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=itemType="{0}"%20AND%20(create_fromTime>=0%20OR%20produce_fromTime>=0%20OR%20use_fromTime>=0)%20OR%20(create_fromTime<=0%20OR%20produce_fromTime<=0%20OR%20use_fromTime<=0)&removeBelow=1&x-api={1}'.format(itemtype, user_input)
+    return 'https://www.kulturarvsdata.se/ksamsok/api?method=statisticSearch&index=fromTime=*&query=itemType="{0}"%20AND%20(create_fromTime>=0%20OR%20produce_fromTime>=0%20OR%20use_fromTime>=0)%20OR%20(create_fromTime<=0%20OR%20produce_fromTime<=0%20OR%20use_fromTime<=0)&removeBelow=1'.format(itemtype)
 
 with open('time_fct.csv', 'r') as f:
     time_fcts = list(csv.reader(f))
@@ -51,7 +49,7 @@ for index in list_of_itemtypes:
 
 # calculate "other" type
 print('Calculating others, this might take a while...')
-other_generator_url = 'http://www.kulturarvsdata.se/ksamsok/api?method=facet&index=itemType&query=*&removeBelow=1&x-api={0}'.format(user_input)
+other_generator_url = 'https://www.kulturarvsdata.se/ksamsok/api?method=facet&index=itemType&query=*&removeBelow=1'
 r = requests.get(other_generator_url, headers=headers)
 raw = r.json()
 

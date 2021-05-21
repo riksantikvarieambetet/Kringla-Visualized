@@ -1,18 +1,16 @@
 import requests
 
-user_input = input('Enter you SOCH API key:')
-
-province_url = 'http://www.kulturarvsdata.se/ksamsok/api?method=facet&index=provinceName&query=*&removeBelow=5000&x-api=' + user_input
+province_url = 'https://www.kulturarvsdata.se/ksamsok/api?method=facet&index=provinceName&query=*&removeBelow=5000'
 
 headers = {
     'Accept': 'json'
 }
 
 def get_types_url(province):
-    return 'http://www.kulturarvsdata.se/ksamsok/api?method=facet&index=itemType&query=provinceName%3D{0}&x-api={1}'.format(province, user_input)
+    return 'https://www.kulturarvsdata.se/ksamsok/api?method=facet&index=itemType&query=provinceName%3D{0}'.format(province)
 
 def get_province_itemtypes(province, total):
-    url = 'http://www.kulturarvsdata.se/ksamsok/api?method=facet&index=itemType&query=provinceName%3D{0}&x-api={1}'.format(province, user_input)
+    url = 'https://www.kulturarvsdata.se/ksamsok/api?method=facet&index=itemType&query=provinceName%3D{0}'.format(province)
     r = requests.get(url, headers=headers)
     raw = r.json()
 
