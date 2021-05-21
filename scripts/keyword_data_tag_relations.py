@@ -18,7 +18,7 @@ class KeywordRelation:
         self.count = _count
 
 def uri_from_keyword_generator(word):
-    url = 'http://www.kulturarvsdata.se/ksamsok/api?method=search&query=itemKeyWord="{0}"&x-api={1}&hitsPerPage=500&recordSchema=xml&fields=itemId&startRecord='.format(word.value, user_input)
+    url = 'https://www.kulturarvsdata.se/ksamsok/api?method=search&query=itemKeyWord="{0}"&hitsPerPage=500&recordSchema=xml&fields=itemId&startRecord='.format(word.value)
     required_n_requests = math.ceil(word.count / 500)
 
     count = 0
@@ -32,9 +32,7 @@ def uri_from_keyword_generator(word):
             if len(item) == 2:
                 yield item['field']['content']
 
-user_input = input('Enter you SOCH API key:')
-
-core_url = 'http://www.kulturarvsdata.se/ksamsok/api?method=statistic&index=itemKeyWord=*&x-api={0}'.format(user_input)
+core_url = 'https://www.kulturarvsdata.se/ksamsok/api?method=statistic&index=itemKeyWord=*'
 
 headers = {
     'Accept': 'json'
